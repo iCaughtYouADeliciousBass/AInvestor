@@ -1,0 +1,2 @@
+# AInvestor
+AI Hedge Fund
