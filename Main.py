@@ -19,6 +19,7 @@ InteractiveShell.ast_node_interactivity = "all"
 
 def getStockData(val):
     api = alpaca_trade_api.REST(KEY, SECRET_KEY, BASE_URL)
+
     try:
         barset = api.get_barset(val, 'day', limit=30)
         return barset[val]

@@ -60,3 +60,32 @@ def RSI(data, count, interval, average):
         print('Not Enough Points in Data Array to Generate RSI -- Points: {}, Average: {}, Length: {}'.format(count, average, length_of_movement))
         return 0
 
+def MACD(data, count, interval):
+    pass
+
+def BollingerBands(data, count, interval):
+    pass
+
+def MA(data, count, interval):
+    pass
+
+def EMA(data, count, interval):
+    pass
+
+def FibbonaciRetracement(data, count, interval):
+    pass
+
+def OBV(data, count, interval):
+    pass
+
+def IchimokuCloud(data, count, interval):
+    pass
+
+def AvgDirIndex(data, count, interval):
+    pass
+
+def StochasticOscillator(data, count, interval):
+    pass
+
+def StdDeviation(data, count, interval):
+    pass
