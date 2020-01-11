@@ -78,10 +78,10 @@ if __name__ == '__main__':
         request_count = stocks.get(i).updateData(request_count)
 
     #print(stocks.get("AAPL").hour_data)
-    print(formulas.momentum(stocks.get("AAPL").hour_data), 'hour', '30')
-
-
-
+    #print(formulas.momentum(stocks.get("AAPL").hour_data), 'hour', '30')
+    #print(formulas.RSI(stocks.get("AAPL").day_data, 30, 'hour', 15))
+    print(formulas.MA(stocks.get("AAPL").day_data, 30, 'hour'))
+    print(formulas.MA(stocks.get("AAPL").minute_data, 30, 'hour'))
     #pool = multiprocessing.Pool(processes=6)
     #data = pool.map(match_stock_data, processData)
     #pool.close()

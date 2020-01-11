@@ -20,38 +20,38 @@ def RSI(data, count, interval, average):
     relative_strength = []
     RSI = []
     for i in range(count):
-        close_array.append(data[count].c)
+        close_array.append(data[i].c)
 
-    for i in len(close_array)-2:
+    for i in range(len(close_array)-1):
         change = close_array[i+1] - close_array[i]
         change_array.append(change)
         if change >= 0:
             upward_array.append(abs(change))
-            downward_array.append('0')
+            downward_array.append(0)
         if change <= 0:
             downward_array.append(abs(change))
-            upward_array.append('0')
+            upward_array.append(0)
 
     temp_up_avg = upward_array[average-1:]
     temp_down_avg = downward_array[average-1:]
-    length_of_movement = len(upward_array)-average+1
+    length_of_movement = len(upward_array)-average + 1
     if length_of_movement > 0:
         for i in range(length_of_movement):
             if i == 0:
                 upward_average.append(sum(upward_array[i:average+i]))
             else:
-                upward_average.append((upward_average[i - 1] * (average - 1) + upward_array[average + i]) / average)
+                upward_average.append((upward_average[i - 1] * (average - 1) + upward_array[average + i - 1]) / average)
 
-        for i in range(length_of_movement1):
+        for i in range(length_of_movement):
             if i==0:
                 downward_average.append(sum(downward_array[i:average+i]))
             else:
-                downward_average.append((downward_average[i - 1] * (average - 1) + downward_array[average + i]) / average)
+                downward_average.append((downward_average[i - 1] * (average - 1) + downward_array[average + i - 1]) / average)
 
-        for i in len(upward_average):
+        for i in range(len(upward_average)):
             relative_strength.append(upward_average[i] / downward_average[i])
 
-        for i in len(relative_strength):
+        for i in range(len(relative_strength)):
             RSI.append(100-100/(relative_strength[i]+1))
 
         return RSI
@@ -67,7 +67,10 @@ def BollingerBands(data, count, interval):
     pass
 
 def MA(data, count, interval):
-    pass
+    MA_array = []
+    for i in range(count):
+        MA_array.append(data[-i+1].c)
+    return sum(MA_array) / len(MA_array)
 
 def EMA(data, count, interval):
     pass
