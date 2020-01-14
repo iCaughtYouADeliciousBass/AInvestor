@@ -1,2 +1,3 @@
->Visual Analysis of trends.  superimposes current trend over historical trends
->
+[Get me out of hereaaaaaaaaaaaaaaaaaaaaaa](README.md)
+
+## Visual Analyzer
