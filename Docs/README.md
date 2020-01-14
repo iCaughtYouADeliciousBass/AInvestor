@@ -11,3 +11,4 @@
  [Home](README.md) | This Page
  [ELA](EmotiveLanguageAnalyzer.md) | Analyzes web resources for emotive language
  [PM](PatternMatching.md) | Superimposes graph over historical data 
+ [SDR](ScheduledDataRetrieval.md) | Scheduled Data Retrieval from Stocks Website
