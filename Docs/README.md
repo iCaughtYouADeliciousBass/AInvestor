@@ -9,3 +9,4 @@
  Link | Description 
 ------|-------------------
  [Home](README.md) | This Page
+ [ELA](EmotiveLanguageAnalyzer.md) | Analyzes web resources for emotive language
