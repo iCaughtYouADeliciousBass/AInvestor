@@ -1,18 +1,15 @@
+import datetime
+
 import requests, json, alpaca_trade_api, numpy, pandas, multiprocessing, os, time
+from matplotlib import pyplot as plt
+from pandas.plotting import register_matplotlib_converters
+register_matplotlib_converters()
+from AInvestor.config import *
 import AInvestor.Stocks as Stocks
 import AInvestor.formulas as formulas
-from AInvestor.config import *
-from fastnumbers import isfloat
-from fastnumbers import fast_float
-from multiprocessing.dummy import Pool as ThreadPool
-import matplotlib.pyplot as plt
-import seaborn as sns
 
-# from tidylib import tidy_document # for tidying incorrect html
-sns.set_style('whitegrid')
-from IPython.core.interactiveshell import InteractiveShell
 
-InteractiveShell.ast_node_interactivity = "all"
+
 
 
 
@@ -79,9 +76,31 @@ if __name__ == '__main__':
 
     #print(stocks.get("AAPL").hour_data)
     #print(formulas.momentum(stocks.get("AAPL").hour_data), 'hour', '30')
-    #print(formulas.RSI(stocks.get("AAPL").day_data, 30, 'hour', 15))
-    print(formulas.MA(stocks.get("AAPL").day_data, 30, 'hour'))
-    print(formulas.MA(stocks.get("AAPL").minute_data, 30, 'hour'))
+    #print(formulas.RSI(stocks.get("AAPL").day_data, len(stocks.get("AAPL").day_data), 'hour', 15))
+    #print(formulas.MA(stocks.get("AAPL").day_data, len(stocks.get("AAPL").day_data), 'hour'))
+    #print(formulas.MA(stocks.get("AAPL").minute_data, len(stocks.get("AAPL").minute_data), 'hour'))
+    #EMA = formulas.EMA(stocks.get("AAPL").minute_data, len(stocks.get("AAPL").minute_data), 'minute')
+
+    close_array = []
+    time_array = []
+
+
+
+
+
+
+
+    for i in range(len(stocks.get("AAPL").minute_data)-15):
+        close_array.append(stocks.get("AAPL").minute_data[i+14].c)
+        time_array.append(stocks.get("AAPL").minute_data[i+14].t)
+    RSI = formulas.RSI(stocks.get("AAPL").minute_data, len(stocks.get("AAPL").minute_data), 'minute', 15)
+    print(RSI)
+    print('RSI LENGTH : {}'.format(len(RSI)))
+    print('Y_ARRAY LENGTH : {}'.format(len(time_array)))
+    plt.plot(time_array, RSI)
+    plt.ylim(0,100)
+    plt.show()
+
     #pool = multiprocessing.Pool(processes=6)
     #data = pool.map(match_stock_data, processData)
     #pool.close()

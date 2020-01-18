@@ -14,15 +14,15 @@ class Stock:
 
 
 
-    def updateData(self, request_count):
+    def updateData(self, request_count, lim=250):
         try:
-            barset = api.get_barset(self.name, 'day', limit=30)
+            barset = api.get_barset(self.name, 'day', limit=lim)
             self.day_data = barset[self.name]
             request_count += 1
-            barset = api.get_barset(self.name, '15Min', limit=120)
+            barset = api.get_barset(self.name, '15Min', limit=lim*4)
             self.hour_data = barset[self.name][0::4]
             request_count += 1
-            barset = api.get_barset(self.name, 'minute', limit=30)
+            barset = api.get_barset(self.name, 'minute', limit=lim)
             self.minute_data = barset[self.name]
             request_count += 1
             self.lastUpdated = datetime.datetime.now()

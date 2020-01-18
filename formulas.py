@@ -1,3 +1,5 @@
+import statistics
+
 def momentum(data, interval, count):
     mom = 0
     try:
@@ -12,7 +14,7 @@ def momentum(data, interval, count):
 
 def RSI(data, count, interval, average):
     close_array = []
-    change_array = ['0']
+    change_array = []
     upward_array = []
     downward_array = []
     upward_average = []
@@ -22,29 +24,28 @@ def RSI(data, count, interval, average):
     for i in range(count):
         close_array.append(data[i].c)
 
-    for i in range(len(close_array)-1):
-        change = close_array[i+1] - close_array[i]
-        change_array.append(change)
-        if change >= 0:
-            upward_array.append(abs(change))
-            downward_array.append(0)
-        if change <= 0:
-            downward_array.append(abs(change))
-            upward_array.append(0)
+    for i in range(len(close_array)):
+        if i != 0:
+            change = close_array[i] - close_array[i-1]
+            change_array.append(change)
+            if change >= 0.0:
+                upward_array.append(abs(change))
+                downward_array.append(0.0)
+            if change <= 0.0:
+                downward_array.append(abs(change))
+                upward_array.append(0.0)
 
-    temp_up_avg = upward_array[average-1:]
-    temp_down_avg = downward_array[average-1:]
-    length_of_movement = len(upward_array)-average + 1
+    length_of_movement = count-average
     if length_of_movement > 0:
         for i in range(length_of_movement):
             if i == 0:
-                upward_average.append(sum(upward_array[i:average+i]))
+                upward_average.append(statistics.mean(upward_array[i:average]))
             else:
                 upward_average.append((upward_average[i - 1] * (average - 1) + upward_array[average + i - 1]) / average)
 
         for i in range(length_of_movement):
-            if i==0:
-                downward_average.append(sum(downward_array[i:average+i]))
+            if i == 0:
+                downward_average.append(statistics.mean(downward_array[i:average]))
             else:
                 downward_average.append((downward_average[i - 1] * (average - 1) + downward_array[average + i - 1]) / average)
 
@@ -73,7 +74,18 @@ def MA(data, count, interval):
     return sum(MA_array) / len(MA_array)
 
 def EMA(data, count, interval):
-    pass
+    MA_Array = MA(data, count, interval)
+    EMA_Array = []
+    smoothing_factor = 2/(count+1)
+
+    for i in range(count):
+        if i == 0:
+            EMA_Array.append(data[i].c)
+        else:
+            EMA_val = (data[i].c - data[i-1].c)*smoothing_factor + data[i-1].c
+            EMA_Array.append(EMA_val)
+
+    return EMA_Array
 
 def FibbonaciRetracement(data, count, interval):
     pass
