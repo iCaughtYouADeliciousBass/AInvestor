@@ -14,24 +14,24 @@ class Stock:
 
 
 
-    def updateData(self, request_count, lim=250):
+    def updateData(self, requestCount, lim=250):
         try:
             barset = api.get_barset(self.name, 'day', limit=lim)
             self.day_data = barset[self.name]
-            request_count += 1
+            requestCount += 1
             barset = api.get_barset(self.name, '15Min', limit=lim*4)
             self.hour_data = barset[self.name][0::4]
-            request_count += 1
+            requestCount += 1
             barset = api.get_barset(self.name, 'minute', limit=lim)
             self.minute_data = barset[self.name]
-            request_count += 1
+            requestCount += 1
             self.lastUpdated = datetime.datetime.now()
 
         except:
             print("{} - Failed to retrieve stock info".format(self.name))
 
         finally:
-            return request_count
+            return requestCount
 
     def staleData(self):
         return self.lastUpdated - datetime.now() > datetime.timedelta(days=1)
