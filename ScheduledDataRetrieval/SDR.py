@@ -1,6 +1,7 @@
 
 import AInvestor.ScheduledDataRetrieval.SDRWebCrawler as SDRWebCrawler
 import AInvestor.Stocks as Stocks
+import AInvestor.DataProcessing.formulas as Formulas
 global REQUEST_COUNT
 
 def initTaskList():
@@ -10,8 +11,8 @@ def initTaskList():
     stocks = dict([(stock_name, Stocks.Stock(stock_name)) for stock_name in stockArray])
     for i in stocks:
         REQUEST_COUNT = stocks.get(i).updateData(REQUEST_COUNT)
-    print(REQUEST_COUNT)
-
+    x = next(iter(stocks.values()))
+    print(Formulas.FibbonaciRetracement(x.day_data, len(x.day_data)))
 def threeMinTaskList():
     pass
 
