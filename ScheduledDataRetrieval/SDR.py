@@ -12,7 +12,8 @@ def initTaskList():
     for i in stocks:
         REQUEST_COUNT = stocks.get(i).updateData(REQUEST_COUNT)
     x = next(iter(stocks.values()))
-    print(Formulas.FibbonaciRetracement(x.day_data, len(x.day_data)))
+    print(Formulas.MACD(x.day_data))
+
 def threeMinTaskList():
     pass
 

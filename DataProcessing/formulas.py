@@ -70,8 +70,13 @@ def RSI(data, average):
 
 
 def MACD(data):
-    twelve_day_EMA = 12
+    MACD_array = []
+    twelve_day_EMA = EMA(data, 12)
+    twentysix_day_EMA = EMA(data, 26)
+    for i in range(len(twentysix_day_EMA)):
+        MACD_array.append(twelve_day_EMA[i]-twentysix_day_EMA[i])
 
+    return MACD_array
 
 def BollingerBands(data):
     pass
@@ -85,10 +90,10 @@ def MA(data):
     return sum(MA_array) / len(MA_array)
 
 
-def EMA(data):
+def EMA(data, smoothing):
     EMA_Array = []
     count = len(data)
-    smoothing_factor = 2 / (count + 1)
+    smoothing_factor = 2 / (smoothing + 1)
     count = len(data)
     for i in range(count):
         if i == 0:
