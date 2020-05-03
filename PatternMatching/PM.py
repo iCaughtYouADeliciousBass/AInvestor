@@ -1,11 +1,14 @@
 
+class PatternMatching:
 
+    def __init__(self):
+        self.state = 0
+        self.status = 'Idle'
+        self.dataRange = []
+        self.dataLength = 0
 
+    def convolve(self, a: list, b: list):
+        pass
 
-def graphData(data1, data2):
-    pass
-
-#This could be interesting to play with
-def convolve(data1, data2):
-    pass
-
+    def scale(self, a: list):
+        pass
