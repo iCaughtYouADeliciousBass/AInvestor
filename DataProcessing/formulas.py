@@ -1,15 +1,14 @@
 import statistics
 
 
-def momentum(data, interval):
-    mom = 0
-    count = len(data)
+def momentum(data):
 
     try:
-        mom = (data[count - 1].c - data[0].c) / data[0].c
+        mom = (data[len(data) - 1].c - data[0].c) / data[0].c
 
     except ValueError:
         print('Momentum calculation failed -- Interval Out of Range')
+        mom = None
 
     finally:
         return mom

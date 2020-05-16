@@ -1,16 +1,15 @@
 import AInvestor.ScheduledDataRetrieval.SDRWebCrawler as SDRWebCrawler
+import sched
+import time
 
 
-def threeMinTaskList():
-    pass
+def minute_task():
+    print('MIN TASK')
+
+def hourly_task():
+    print("HOURLY")
 
 
-def hourlyTaskList():
-    pass
-
-
-def dailyTaskList():
-    pass
-
-
+def daily_task():
+    print("DAILY")
 

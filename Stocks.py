@@ -61,6 +61,7 @@ class StockData:
         self.EMA = None
         self.Fibbonaci = None
         self.RSI = None
+        self.Momentum = None
 
     def update(self):
         self.length = len(self.data)
@@ -69,7 +70,7 @@ class StockData:
         self.EMA = Formulas.EMA(self.data, 14)
         self.Fibbonaci = Formulas.FibbonaciRetracement(self.data)
         self.RSI = Formulas.RSI(self.data, 14)
-
+        self.Momentum = Formulas.momentum(self.data)
 
 class Position:
     def __init__(self, data):
