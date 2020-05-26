@@ -1,3 +1,4 @@
+# ------------------------Dependencies----------------------------------------------------------------------------------
 from AInvestor.config import api
 import AInvestor.ScheduledDataRetrieval.SDR as SDR
 import AInvestor.ScheduledDataRetrieval.SDRWebCrawler as SDRWebCrawler
@@ -5,6 +6,10 @@ import AInvestor.Stocks as Stocks
 import AInvestor.Logger as Logger
 import matplotlib.pyplot as plt
 import numpy as np
+import datetime
+
+
+# ------------------------Data Manager Class----------------------------------------------------------------------------
 
 
 class DataManager:
@@ -39,26 +44,37 @@ class DataManager:
 
     def short_term_analysis(self, stock):
         print("-------------------------------------------------------------------------------------------------------")
-        print("DAY DATA :: Name: {}, MA: {}, EMA: {},  RSI: {}, MACD: {}, Momentum: {}".format(stock.name,
-                                                                                               stock.day_data.MA,
-                                                                                               stock.day_data.EMA[-7:],
-                                                                                               stock.day_data.RSI[-7:],
-                                                                                               stock.day_data.MACD[-7:],
-                                                                                               stock.day_data.Momentum))
+        trial_lim = 250
+        stock.update_data(lim=trial_lim)
+        self.log.append('info', 'Stock: {} data has been repopulated with a limit of {}.'.format(stock.name, trial_lim))
 
-        print("HOUR DATA :: Name: {}, MA: {}, EMA: {},  RSI: {}, MACD: {}, Momentum: {}".format(stock.name,
-                                                                                                stock.hour_data.MA,
-                                                                                                stock.hour_data.EMA[-7:],
-                                                                                                stock.hour_data.RSI[-7:],
-                                                                                                stock.hour_data.MACD[-7:],
-                                                                                                stock.hour_data.Momentum))
+        x1 = np.array([stock.hour_data.interval_one_hundred.Momentum,
+                       stock.hour_data.interval_thirty.Momentum, stock.hour_data.interval_fifteen.Momentum])
+        x2 = np.array([stock.hour_data.interval_one_hundred.RSI[-1], stock.hour_data.interval_thirty.RSI[-1],
+                       stock.hour_data.interval_fifteen.RSI[-1]])
+        x3 = np.array([stock.hour_data.interval_one_hundred.MACD[-1], stock.hour_data.interval_thirty.MACD[-1],
+                       stock.hour_data.interval_fifteen.MACD[-1]])
+        x4 = np.array([stock.hour_data.interval_one_hundred.MA, stock.hour_data.interval_thirty.MA,
+                       stock.hour_data.interval_fifteen.MA])
+        x5 = np.array([stock.hour_data.interval_one_hundred.EMA[-1], stock.hour_data.interval_thirty.EMA[-1],
+                       stock.hour_data.interval_fifteen.EMA[-1]])
 
-        print("MINUTE DATA :: Name: {}, MA: {}, EMA: {},  RSI: {}, MACD: {}, Momentum: {}".format(stock.name,
-                                                                                                  stock.minute_data.MA,
-                                                                                                  stock.minute_data.EMA[-7:],
-                                                                                                  stock.minute_data.RSI[-7:],
-                                                                                                  stock.minute_data.MACD[-7:],
-                                                                                                  stock.minute_data.Momentum))
+        y1 = [len(stock.hour_data.interval_one_hundred.RSI), len(stock.hour_data.interval_thirty.RSI),
+              len(stock.hour_data.interval_fifteen.RSI)]
+        y2 = [len(stock.hour_data.interval_one_hundred.MACD), len(stock.hour_data.interval_thirty.MACD),
+              len(stock.hour_data.interval_fifteen.MACD)]
+        y3 = [len(stock.hour_data.interval_one_hundred.EMA), len(stock.hour_data.interval_thirty.EMA),
+              len(stock.hour_data.interval_fifteen.EMA)]
+
+#       Z1_1 = 100 int, Z1_2 = 30 int, Z1_3 = 15 int
+        z1_1 = [1, y1[0], y2[0], y3[0], 1]
+        z1_2 = [1, y1[1], y2[1], y3[1], 1]
+        z1_3 = [1, y1[2], y2[2], y3[2], 1]
+
+
+
+        print(stock.network.feed_forward(x1, x2, x3, x4, x5))
+
         print("-------------------------------------------------------------------------------------------------------")
 
     def long_term_analysis(self):

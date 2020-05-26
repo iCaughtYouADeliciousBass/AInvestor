@@ -1,4 +1,13 @@
+# ------------------------Dependencies----------------------------------------------------------------------------------
 import statistics
+
+# ------------------------Clamp-----------------------------------------------------------------------------------------
+
+
+def clamp(num, min_value, max_value):
+    return max(min(num, max_value), min_value)
+
+# ------------------------Momentum--------------------------------------------------------------------------------------
 
 
 def momentum(data):
@@ -12,6 +21,8 @@ def momentum(data):
 
     finally:
         return mom
+
+# ------------------------Relative Strength Index-----------------------------------------------------------------------
 
 
 def RSI(data, average):
@@ -52,9 +63,11 @@ def RSI(data, average):
             else:
                 downward_average.append(
                     (downward_average[i - 1] * (average - 1) + downward_array[average + i - 1]) / average)
-
-        for i in range(len(upward_average)):
-            relative_strength.append(upward_average[i] / downward_average[i])
+        try:
+            for i in range(len(upward_average)):
+                relative_strength.append(upward_average[i] / downward_average[i])
+        except ZeroDivisionError:
+            print("Uh-oh! RSI Calc failed - zero downward average")
 
         for i in range(len(relative_strength)):
             RSI.append(100 - 100 / (relative_strength[i] + 1))
@@ -67,18 +80,25 @@ def RSI(data, average):
                                                                                                               length_of_movement))
         return 0
 
+# ------------------------Moving Average Convergence Divergence---------------------------------------------------------
 
-def MACD(data):
+
+def MACD(data, interval_a: int = 12, interval_b: int = 26):
     MACD_array = []
-    twelve_day_EMA = EMA(data, 12)
-    twentysix_day_EMA = EMA(data, 26)
+    twelve_day_EMA = EMA(data, interval_a)
+    twentysix_day_EMA = EMA(data, interval_b)
     for i in range(len(twentysix_day_EMA)):
         MACD_array.append(twelve_day_EMA[i]-twentysix_day_EMA[i])
 
     return MACD_array
 
+# ------------------------Bollinger Bands-------------------------------------------------------------------------------
+
+
 def BollingerBands(data):
     pass
+
+# ------------------------Moving Average--------------------------------------------------------------------------------
 
 
 def MA(data):
@@ -87,6 +107,8 @@ def MA(data):
     for i in range(count):
         MA_array.append(data[-i + 1].c)
     return sum(MA_array) / len(MA_array)
+
+# ------------------------Exponential Moving Average--------------------------------------------------------------------
 
 
 def EMA(data, smoothing):
@@ -103,6 +125,8 @@ def EMA(data, smoothing):
 
     return EMA_Array
 
+# ------------------------Fibbonaci Retracement-------------------------------------------------------------------------
+
 
 def FibbonaciRetracement(data):
     close_val_array = []
@@ -117,21 +141,31 @@ def FibbonaciRetracement(data):
                 '61.8%': 0.618 * difference + min_val, '100%': max_val}
     return out_dict
 
+# ------------------------On Balance Volume-----------------------------------------------------------------------------
+
 
 def OBV(data):
     pass
+
+# ------------------------Ichimoku Cloud--------------------------------------------------------------------------------
 
 
 def IchimokuCloud(data):
     pass
 
+# ------------------------Average Direction Index-----------------------------------------------------------------------
+
 
 def AvgDirIndex(data):
     pass
 
+# ------------------------Stochastic Oscillator-------------------------------------------------------------------------
+
 
 def StochasticOscillator(data):
     pass
+
+# ------------------------Standard Deviation----------------------------------------------------------------------------
 
 
 def StdDeviation(data):

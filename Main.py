@@ -2,16 +2,13 @@
 from pandas.plotting import register_matplotlib_converters
 import AInvestor.DataManager as DataManager
 import AInvestor.StockManager as StockManager
-import AInvestor.Logger as Logger
-from AInvestor.config import api
 import multiprocessing
 
-# ------------------------Random----------------------------------------------------------------------------------------
+# ------------------------Setup-----------------------------------------------------------------------------------------
 register_matplotlib_converters()
 __author__ = 'Michael Judd'
 
 # ------------------------Main------------------------------------------------------------------------------------------
-
 if __name__ == '__main__':
     # Initiate Data Manager, Stock Manager and Logger
     dm = DataManager.DataManager()

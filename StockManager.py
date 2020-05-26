@@ -1,7 +1,10 @@
+# ------------------------Dependencies----------------------------------------------------------------------------------
 from AInvestor.config import api
 import AInvestor.Stocks as Stocks
 import AInvestor.Logger as Logger
 import statistics
+
+# ------------------------Stock Manager Class---------------------------------------------------------------------------
 
 
 class StockManager:
@@ -41,7 +44,7 @@ class StockManager:
         self.daytrade_count = account_info.daytrade_count
         Stocks.REQUEST_COUNT += 2
 
-    def actionStream_start(self):
+    def action_stream_start(self):
         while len(self.actionStream) > 0:
             a = next(iter(self.actionStream))
             api.submit_order(a.stock_name, a.qty, a.order_type, a.params, "gtc",
@@ -50,6 +53,8 @@ class StockManager:
                 self.actionStream = self.actionStream[1:]
             else:
                 self.actionStream = []
+
+# ------------------------Action Class----------------------------------------------------------------------------------
 
 
 class Action:
