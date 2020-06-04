@@ -27,10 +27,10 @@ class Stock:
         self.update_data(avoid=1)
         #       Day / Hour / Min data that holds all stock data
         self.MA_scale = self.price
-        self.MACD_scale = 10
+        self.MACD_scale = 100
         self.Momentum_scale = 10
         self.EMA_scale = self.price
-        self.RSI_scale = [-50, 10]
+        self.RSI_scale = 1
         self.scale_array = {"MA": self.MA_scale, "MACD": self.MACD_scale, "Momentum": self.Momentum_scale,
                             "EMA": self.EMA_scale, "RSI": self.RSI_scale}
         self.day_data = StockData(self.temp_day_data_data, self.interval_range, self.scale_array)
@@ -146,10 +146,10 @@ class Interval:
         for i in range(len(self.EMA)):
             self.EMA[i] = self.EMA[i] - factor
 
-    def RSI_scale(self, factor: list):
+    def RSI_scale(self, factor):
         try:
             for i in range(len(self.RSI)):
-                self.RSI[i] = (self.RSI[i] - factor[0]) * factor[1]
+                self.RSI[i] = self.RSI[i] * factor
         except IndexError:
             print("Nice RSI Scale Factor list, Iniel.")
 

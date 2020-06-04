@@ -65,6 +65,17 @@ def RSI(data, average):
                     (downward_average[i - 1] * (average - 1) + downward_array[average + i - 1]) / average)
         try:
             for i in range(len(upward_average)):
+                # If the array contains a zero, append with last data point or median of last 2 points
+                if upward_average[i] == 0:
+                    if i == len(upward_average)-1:
+                        upward_average[i] = upward_average[i-1]
+                    else:
+                        upward_average[i] = (upward_average[i-1] + upward_average[i+1]) / 2
+                if downward_average[i] == 0:
+                    if i == len(downward_average)-1:
+                        downward_average[i] = downward_average[i-1]
+                    else:
+                        downward_average[i] = (downward_average[i-1] + downward_average[i+1]) / 2
                 relative_strength.append(upward_average[i] / downward_average[i])
         except ZeroDivisionError:
             print("Uh-oh! RSI Calc failed - zero downward average")
