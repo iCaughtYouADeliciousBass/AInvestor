@@ -1,0 +1,1317 @@
+DEBUG:root:This message should go to the log file
+INFO:root:So should this
+WARNING:root:And this, too
+DEBUG:root:This message should go to the log file
+INFO:root:So should this
+WARNING:root:And this, too
+INFO:root:Logging started at <built-in function time>
+INFO:root:Logging started at <built-in method now of type object at 0x0000000062748510>
+INFO:root:Logging started at 10/05/2020 16:16:18
+INFO:root:Logging started at 10/05/2020 16:17:18
+INFO:root:Logging started at 11/05/2020 10:15:12
+INFO:root:Logging started at 11/05/2020 10:15:53
+INFO:root:Logging started at 11/05/2020 10:16:51
+INFO:root:Test Main
+INFO:root:Logging started at 11/05/2020 10:38:10
+INFO:root:Logging started at 11/05/2020 12:50:05
+INFO:root:Logging started at 11/05/2020 12:50:20
+INFO:root:Logging started at 11/05/2020 12:50:46
+INFO:root:Logging started at 11/05/2020 12:56:58
+INFO:root:Logging started at 11/05/2020 13:23:10
+INFO:root:Logging started at 11/05/2020 13:23:23
+INFO:root:Logging started at 11/05/2020 13:23:49
+INFO:root:Logging started at 11/05/2020 13:29:20
+INFO:root:Logging started at 11/05/2020 13:29:38
+INFO:root:Logging started at 11/05/2020 13:30:08
+INFO:root:Logging started at 11/05/2020 13:30:44
+INFO:root:Logging started at 11/05/2020 13:31:28
+INFO:root:Logging started at 11/05/2020 13:34:33
+INFO:root:Logging started at 11/05/2020 13:34:48
+INFO:root:Logging started at 11/05/2020 13:51:29
+INFO:root:Logging started at 11/05/2020 13:53:15
+INFO:root:Logging started at 11/05/2020 13:53:33
+INFO:root:Logging started at 11/05/2020 13:54:19
+INFO:root:Logging started at 11/05/2020 19:22:46
+INFO:root:Logging started at 11/05/2020 19:39:55
+INFO:root:Logging started at 11/05/2020 21:42:12
+INFO:root:Logging started at 11/05/2020 21:42:23
+INFO:root:Logging started at 12/05/2020 08:37:58
+INFO:root:Logging started at 12/05/2020 20:57:48
+INFO:root:Logging started at 12/05/2020 20:58:52
+INFO:root:Logging started at 12/05/2020 21:04:15
+INFO:root:Logging started at 12/05/2020 21:05:00
+INFO:root:Logging started at 13/05/2020 14:23:34
+INFO:root:[13/05/2020 14:29:35] - Logging started
+INFO:root:[13/05/2020 14:37:26] - Logging started
+INFO:root:[13/05/2020 14:51:07] - Logging started
+INFO:root:[13/05/2020 14:51:09] - Logging started
+INFO:root:[13/05/2020 14:51:35] - Logging started
+INFO:root:[13/05/2020 14:51:37] - Logging started
+INFO:root:[13/05/2020 14:52:04] - Logging started
+INFO:root:[13/05/2020 14:52:06] - Logging started
+INFO:root:[13/05/2020 14:52:06] - Data Manager started successfully
+INFO:root:[13/05/2020 14:52:07] - Logging started
+INFO:root:[13/05/2020 14:52:07] - Stock Manager started successfully
+INFO:root:[13/05/2020 14:54:53] - Data Manager started successfully
+INFO:root:[13/05/2020 14:54:53] - Stock Manager started successfully
+INFO:root:[14/05/2020 10:30:03] - Data Manager started successfully
+INFO:root:[14/05/2020 10:30:04] - Stock Manager started successfully
+INFO:root:[14/05/2020 10:35:12] - Data Manager started successfully
+INFO:root:[14/05/2020 10:35:13] - Stock Manager started successfully
+INFO:root:[14/05/2020 10:35:27] - Data Manager started successfully
+INFO:root:[14/05/2020 10:35:27] - Stock Manager started successfully
+INFO:root:[14/05/2020 10:36:34] - Data Manager started successfully
+INFO:root:[14/05/2020 10:36:35] - Stock Manager started successfully
+INFO:root:[14/05/2020 10:38:37] - Data Manager started successfully
+INFO:root:[14/05/2020 10:38:37] - Stock Manager started successfully
+INFO:root:[14/05/2020 10:38:58] - Data Manager started successfully
+INFO:root:[14/05/2020 10:38:58] - Stock Manager started successfully
+INFO:root:[14/05/2020 10:39:33] - Data Manager started successfully
+INFO:root:[14/05/2020 10:39:33] - Stock Manager started successfully
+INFO:root:[14/05/2020 10:39:58] - Data Manager started successfully
+INFO:root:[14/05/2020 10:39:59] - Stock Manager started successfully
+INFO:root:[14/05/2020 10:40:33] - Data Manager started successfully
+INFO:root:[14/05/2020 10:40:34] - Stock Manager started successfully
+INFO:root:[15/05/2020 11:46:07] - Data Manager started successfully
+INFO:root:[15/05/2020 11:46:07] - Stock Manager started successfully
+INFO:root:[15/05/2020 11:46:30] - Data Manager started successfully
+INFO:root:[15/05/2020 11:46:31] - Stock Manager started successfully
+INFO:root:[15/05/2020 12:32:37] - Data Manager started successfully
+INFO:root:[15/05/2020 12:32:39] - Stock Manager started successfully
+INFO:root:[15/05/2020 12:33:19] - Data Manager started successfully
+INFO:root:[15/05/2020 12:33:20] - Stock Manager started successfully
+INFO:root:[15/05/2020 12:33:45] - Data Manager started successfully
+INFO:root:[15/05/2020 12:33:46] - Stock Manager started successfully
+INFO:root:[15/05/2020 12:34:43] - Data Manager started successfully
+INFO:root:[15/05/2020 12:34:44] - Stock Manager started successfully
+INFO:root:[15/05/2020 12:47:23] - Data Manager started successfully
+INFO:root:[15/05/2020 12:47:24] - Stock Manager started successfully
+INFO:root:[15/05/2020 12:47:47] - Data Manager started successfully
+INFO:root:[15/05/2020 12:47:47] - Stock Manager started successfully
+INFO:root:[15/05/2020 12:48:04] - Data Manager started successfully
+INFO:root:[15/05/2020 12:48:05] - Stock Manager started successfully
+INFO:root:[15/05/2020 12:48:47] - Data Manager started successfully
+INFO:root:[15/05/2020 12:48:48] - Stock Manager started successfully
+INFO:root:[15/05/2020 12:49:43] - Data Manager started successfully
+INFO:root:[15/05/2020 12:49:44] - Stock Manager started successfully
+INFO:root:[15/05/2020 12:49:59] - Data Manager started successfully
+INFO:root:[15/05/2020 12:50:00] - Stock Manager started successfully
+INFO:root:[15/05/2020 12:50:15] - Data Manager started successfully
+INFO:root:[15/05/2020 12:50:16] - Stock Manager started successfully
+INFO:root:[15/05/2020 12:50:42] - Data Manager started successfully
+INFO:root:[15/05/2020 12:50:42] - Stock Manager started successfully
+INFO:root:[15/05/2020 12:51:02] - Data Manager started successfully
+INFO:root:[15/05/2020 12:51:03] - Stock Manager started successfully
+INFO:root:[15/05/2020 12:51:27] - Data Manager started successfully
+INFO:root:[15/05/2020 12:51:28] - Stock Manager started successfully
+INFO:root:[15/05/2020 12:51:46] - Data Manager started successfully
+INFO:root:[15/05/2020 12:51:46] - Stock Manager started successfully
+INFO:root:[15/05/2020 12:53:34] - Data Manager started successfully
+INFO:root:[15/05/2020 12:53:35] - Stock Manager started successfully
+INFO:root:[15/05/2020 12:53:57] - Data Manager started successfully
+INFO:root:[15/05/2020 12:53:57] - Stock Manager started successfully
+INFO:root:[15/05/2020 13:09:40] - Data Manager started successfully
+INFO:root:[15/05/2020 13:09:41] - Stock Manager started successfully
+INFO:root:[15/05/2020 13:11:02] - Data Manager started successfully
+INFO:root:[15/05/2020 13:11:02] - Stock Manager started successfully
+INFO:root:[15/05/2020 13:19:25] - Data Manager started successfully
+INFO:root:[15/05/2020 13:19:26] - Stock Manager started successfully
+INFO:root:[15/05/2020 13:21:20] - Data Manager started successfully
+INFO:root:[15/05/2020 13:21:21] - Stock Manager started successfully
+INFO:root:[15/05/2020 13:21:59] - Data Manager started successfully
+INFO:root:[15/05/2020 13:22:00] - Stock Manager started successfully
+INFO:root:[15/05/2020 13:27:04] - Data Manager started successfully
+INFO:root:[15/05/2020 13:27:04] - Stock Manager started successfully
+INFO:root:[15/05/2020 17:57:56] - Data Manager started successfully
+INFO:root:[15/05/2020 17:57:56] - Stock Manager started successfully
+INFO:root:[16/05/2020 13:15:12] - Data Manager started successfully
+INFO:root:[16/05/2020 13:15:13] - Stock Manager started successfully
+INFO:root:[16/05/2020 13:35:21] - Data Manager started successfully
+INFO:root:[16/05/2020 13:35:22] - Stock Manager started successfully
+INFO:root:[16/05/2020 13:35:37] - Data Manager started successfully
+INFO:root:[16/05/2020 13:35:38] - Stock Manager started successfully
+INFO:root:[16/05/2020 14:03:41] - Data Manager started successfully
+INFO:root:[16/05/2020 14:03:42] - Stock Manager started successfully
+INFO:root:[16/05/2020 14:03:57] - Data Manager started successfully
+INFO:root:[16/05/2020 14:03:58] - Stock Manager started successfully
+INFO:root:[16/05/2020 14:03:59] - Stock: AAPL data has been repopulated with a limit of 21.
+INFO:root:[16/05/2020 14:03:59] - Stock: MSFT data has been repopulated with a limit of 21.
+INFO:root:[17/05/2020 21:02:44] - Node created successfully
+INFO:root:[17/05/2020 21:02:44] - Node created successfully
+INFO:root:[17/05/2020 21:02:44] - Node created successfully
+INFO:root:[17/05/2020 21:02:44] - Network created successfully
+INFO:root:[17/05/2020 21:02:44] - Node created successfully
+INFO:root:[17/05/2020 21:02:44] - Node created successfully
+INFO:root:[17/05/2020 21:02:44] - Node created successfully
+INFO:root:[17/05/2020 21:02:44] - Network created successfully
+INFO:root:[17/05/2020 21:02:44] - Data Manager started successfully
+INFO:root:[17/05/2020 21:02:45] - Stock Manager started successfully
+INFO:root:[17/05/2020 21:02:46] - Stock: AAPL data has been repopulated with a limit of 21.
+INFO:root:[18/05/2020 10:03:15] - Node created successfully
+INFO:root:[18/05/2020 10:03:15] - Node created successfully
+INFO:root:[18/05/2020 10:03:15] - Node created successfully
+INFO:root:[18/05/2020 10:03:15] - Network created successfully
+INFO:root:[18/05/2020 10:03:16] - Node created successfully
+INFO:root:[18/05/2020 10:03:16] - Node created successfully
+INFO:root:[18/05/2020 10:03:16] - Node created successfully
+INFO:root:[18/05/2020 10:03:16] - Network created successfully
+INFO:root:[18/05/2020 10:03:16] - Data Manager started successfully
+INFO:root:[18/05/2020 10:03:17] - Stock Manager started successfully
+INFO:root:[18/05/2020 10:03:18] - Stock: AAPL data has been repopulated with a limit of 21.
+INFO:root:[18/05/2020 10:04:39] - Node created successfully
+INFO:root:[18/05/2020 10:04:39] - Node created successfully
+INFO:root:[18/05/2020 10:04:39] - Node created successfully
+INFO:root:[18/05/2020 10:04:39] - Network created successfully
+INFO:root:[18/05/2020 10:04:41] - Node created successfully
+INFO:root:[18/05/2020 10:04:41] - Node created successfully
+INFO:root:[18/05/2020 10:04:41] - Node created successfully
+INFO:root:[18/05/2020 10:04:41] - Network created successfully
+INFO:root:[18/05/2020 10:04:41] - Data Manager started successfully
+INFO:root:[18/05/2020 10:04:41] - Stock Manager started successfully
+INFO:root:[18/05/2020 10:04:42] - Stock: AAPL data has been repopulated with a limit of 21.
+INFO:root:[18/05/2020 10:05:36] - Node created successfully
+INFO:root:[18/05/2020 10:05:36] - Node created successfully
+INFO:root:[18/05/2020 10:05:36] - Node created successfully
+INFO:root:[18/05/2020 10:05:36] - Network created successfully
+INFO:root:[18/05/2020 10:05:38] - Node created successfully
+INFO:root:[18/05/2020 10:05:38] - Node created successfully
+INFO:root:[18/05/2020 10:05:38] - Node created successfully
+INFO:root:[18/05/2020 10:05:38] - Network created successfully
+INFO:root:[18/05/2020 10:05:38] - Data Manager started successfully
+INFO:root:[18/05/2020 10:05:38] - Stock Manager started successfully
+INFO:root:[18/05/2020 10:05:40] - Stock: AAPL data has been repopulated with a limit of 21.
+INFO:root:[18/05/2020 10:09:14] - Node created successfully
+INFO:root:[18/05/2020 10:09:14] - Node created successfully
+INFO:root:[18/05/2020 10:09:14] - Node created successfully
+INFO:root:[18/05/2020 10:09:14] - Network created successfully
+INFO:root:[18/05/2020 10:09:14] - Node created successfully
+INFO:root:[18/05/2020 10:09:14] - Node created successfully
+INFO:root:[18/05/2020 10:09:14] - Node created successfully
+INFO:root:[18/05/2020 10:09:14] - Network created successfully
+INFO:root:[18/05/2020 10:09:14] - Data Manager started successfully
+INFO:root:[18/05/2020 10:09:15] - Stock Manager started successfully
+INFO:root:[18/05/2020 10:09:16] - Stock: AAPL data has been repopulated with a limit of 21.
+INFO:root:[18/05/2020 10:11:06] - Node created successfully
+INFO:root:[18/05/2020 10:11:06] - Node created successfully
+INFO:root:[18/05/2020 10:11:06] - Node created successfully
+INFO:root:[18/05/2020 10:11:06] - Network created successfully
+INFO:root:[18/05/2020 10:11:07] - Node created successfully
+INFO:root:[18/05/2020 10:11:07] - Node created successfully
+INFO:root:[18/05/2020 10:11:07] - Node created successfully
+INFO:root:[18/05/2020 10:11:07] - Network created successfully
+INFO:root:[18/05/2020 10:11:07] - Data Manager started successfully
+INFO:root:[18/05/2020 10:11:08] - Stock Manager started successfully
+INFO:root:[18/05/2020 10:11:09] - Stock: AAPL data has been repopulated with a limit of 21.
+INFO:root:[18/05/2020 10:12:10] - Node created successfully
+INFO:root:[18/05/2020 10:12:10] - Node created successfully
+INFO:root:[18/05/2020 10:12:10] - Node created successfully
+INFO:root:[18/05/2020 10:12:10] - Network created successfully
+INFO:root:[18/05/2020 10:12:11] - Node created successfully
+INFO:root:[18/05/2020 10:12:11] - Node created successfully
+INFO:root:[18/05/2020 10:12:11] - Node created successfully
+INFO:root:[18/05/2020 10:12:11] - Network created successfully
+INFO:root:[18/05/2020 10:12:11] - Data Manager started successfully
+INFO:root:[18/05/2020 10:12:11] - Stock Manager started successfully
+INFO:root:[18/05/2020 10:12:12] - Stock: AAPL data has been repopulated with a limit of 21.
+INFO:root:[18/05/2020 10:13:07] - Node created successfully
+INFO:root:[18/05/2020 10:13:07] - Node created successfully
+INFO:root:[18/05/2020 10:13:07] - Node created successfully
+INFO:root:[18/05/2020 10:13:07] - Network created successfully
+INFO:root:[18/05/2020 10:13:08] - Node created successfully
+INFO:root:[18/05/2020 10:13:08] - Node created successfully
+INFO:root:[18/05/2020 10:13:08] - Node created successfully
+INFO:root:[18/05/2020 10:13:08] - Network created successfully
+INFO:root:[18/05/2020 10:13:08] - Data Manager started successfully
+INFO:root:[18/05/2020 10:13:09] - Stock Manager started successfully
+INFO:root:[18/05/2020 10:13:10] - Stock: AAPL data has been repopulated with a limit of 21.
+INFO:root:[18/05/2020 10:13:25] - Node created successfully
+INFO:root:[18/05/2020 10:13:25] - Node created successfully
+INFO:root:[18/05/2020 10:13:25] - Node created successfully
+INFO:root:[18/05/2020 10:13:25] - Network created successfully
+INFO:root:[18/05/2020 10:13:26] - Node created successfully
+INFO:root:[18/05/2020 10:13:26] - Node created successfully
+INFO:root:[18/05/2020 10:13:26] - Node created successfully
+INFO:root:[18/05/2020 10:13:26] - Network created successfully
+INFO:root:[18/05/2020 10:13:26] - Data Manager started successfully
+INFO:root:[18/05/2020 10:13:26] - Stock Manager started successfully
+INFO:root:[18/05/2020 10:13:28] - Stock: AAPL data has been repopulated with a limit of 21.
+INFO:root:[18/05/2020 10:13:57] - Node created successfully
+INFO:root:[18/05/2020 10:13:57] - Node created successfully
+INFO:root:[18/05/2020 10:13:57] - Node created successfully
+INFO:root:[18/05/2020 10:13:57] - Network created successfully
+INFO:root:[18/05/2020 10:13:57] - Node created successfully
+INFO:root:[18/05/2020 10:13:57] - Node created successfully
+INFO:root:[18/05/2020 10:13:57] - Node created successfully
+INFO:root:[18/05/2020 10:13:57] - Network created successfully
+INFO:root:[18/05/2020 10:13:57] - Data Manager started successfully
+INFO:root:[18/05/2020 10:13:58] - Stock Manager started successfully
+INFO:root:[18/05/2020 10:13:59] - Stock: AAPL data has been repopulated with a limit of 21.
+INFO:root:[18/05/2020 10:14:42] - Node created successfully
+INFO:root:[18/05/2020 10:14:42] - Node created successfully
+INFO:root:[18/05/2020 10:14:42] - Node created successfully
+INFO:root:[18/05/2020 10:14:42] - Network created successfully
+INFO:root:[18/05/2020 10:14:43] - Node created successfully
+INFO:root:[18/05/2020 10:14:43] - Node created successfully
+INFO:root:[18/05/2020 10:14:43] - Node created successfully
+INFO:root:[18/05/2020 10:14:43] - Network created successfully
+INFO:root:[18/05/2020 10:14:43] - Data Manager started successfully
+INFO:root:[18/05/2020 10:14:44] - Stock Manager started successfully
+INFO:root:[18/05/2020 10:14:45] - Stock: AAPL data has been repopulated with a limit of 21.
+INFO:root:[18/05/2020 10:15:10] - Node created successfully
+INFO:root:[18/05/2020 10:15:10] - Node created successfully
+INFO:root:[18/05/2020 10:15:10] - Node created successfully
+INFO:root:[18/05/2020 10:15:10] - Network created successfully
+INFO:root:[18/05/2020 10:15:11] - Node created successfully
+INFO:root:[18/05/2020 10:15:11] - Node created successfully
+INFO:root:[18/05/2020 10:15:11] - Node created successfully
+INFO:root:[18/05/2020 10:15:11] - Network created successfully
+INFO:root:[18/05/2020 10:15:11] - Data Manager started successfully
+INFO:root:[18/05/2020 10:15:12] - Stock Manager started successfully
+INFO:root:[18/05/2020 10:15:12] - Stock: AAPL data has been repopulated with a limit of 21.
+INFO:root:[18/05/2020 10:15:39] - Node created successfully
+INFO:root:[18/05/2020 10:15:39] - Node created successfully
+INFO:root:[18/05/2020 10:15:39] - Node created successfully
+INFO:root:[18/05/2020 10:15:39] - Network created successfully
+INFO:root:[18/05/2020 10:15:40] - Node created successfully
+INFO:root:[18/05/2020 10:15:40] - Node created successfully
+INFO:root:[18/05/2020 10:15:40] - Node created successfully
+INFO:root:[18/05/2020 10:15:40] - Network created successfully
+INFO:root:[18/05/2020 10:15:40] - Data Manager started successfully
+INFO:root:[18/05/2020 10:15:40] - Stock Manager started successfully
+INFO:root:[18/05/2020 10:15:41] - Stock: AAPL data has been repopulated with a limit of 21.
+INFO:root:[18/05/2020 10:16:20] - Node created successfully
+INFO:root:[18/05/2020 10:16:20] - Node created successfully
+INFO:root:[18/05/2020 10:16:20] - Node created successfully
+INFO:root:[18/05/2020 10:16:20] - Network created successfully
+INFO:root:[18/05/2020 10:16:21] - Node created successfully
+INFO:root:[18/05/2020 10:16:21] - Node created successfully
+INFO:root:[18/05/2020 10:16:21] - Node created successfully
+INFO:root:[18/05/2020 10:16:21] - Network created successfully
+INFO:root:[18/05/2020 10:16:21] - Data Manager started successfully
+INFO:root:[18/05/2020 10:16:22] - Stock Manager started successfully
+INFO:root:[18/05/2020 10:16:23] - Stock: AAPL data has been repopulated with a limit of 21.
+INFO:root:[18/05/2020 10:18:54] - Node created successfully
+INFO:root:[18/05/2020 10:18:54] - Node created successfully
+INFO:root:[18/05/2020 10:18:54] - Node created successfully
+INFO:root:[18/05/2020 10:18:54] - Network created successfully
+INFO:root:[18/05/2020 10:18:55] - Node created successfully
+INFO:root:[18/05/2020 10:18:55] - Node created successfully
+INFO:root:[18/05/2020 10:18:55] - Node created successfully
+INFO:root:[18/05/2020 10:18:55] - Network created successfully
+INFO:root:[18/05/2020 10:18:55] - Data Manager started successfully
+INFO:root:[18/05/2020 10:18:55] - Stock Manager started successfully
+INFO:root:[18/05/2020 10:18:56] - Stock: AAPL data has been repopulated with a limit of 21.
+INFO:root:[18/05/2020 10:19:41] - Node created successfully
+INFO:root:[18/05/2020 10:19:41] - Node created successfully
+INFO:root:[18/05/2020 10:19:41] - Node created successfully
+INFO:root:[18/05/2020 10:19:41] - Network created successfully
+INFO:root:[18/05/2020 10:19:42] - Node created successfully
+INFO:root:[18/05/2020 10:19:42] - Node created successfully
+INFO:root:[18/05/2020 10:19:42] - Node created successfully
+INFO:root:[18/05/2020 10:19:42] - Network created successfully
+INFO:root:[18/05/2020 10:19:42] - Data Manager started successfully
+INFO:root:[18/05/2020 10:19:43] - Stock Manager started successfully
+INFO:root:[18/05/2020 10:19:44] - Stock: AAPL data has been repopulated with a limit of 21.
+INFO:root:[18/05/2020 10:20:29] - Node created successfully
+INFO:root:[18/05/2020 10:20:29] - Node created successfully
+INFO:root:[18/05/2020 10:20:29] - Node created successfully
+INFO:root:[18/05/2020 10:20:29] - Network created successfully
+INFO:root:[18/05/2020 10:20:30] - Node created successfully
+INFO:root:[18/05/2020 10:20:30] - Node created successfully
+INFO:root:[18/05/2020 10:20:30] - Node created successfully
+INFO:root:[18/05/2020 10:20:30] - Network created successfully
+INFO:root:[18/05/2020 10:20:30] - Data Manager started successfully
+INFO:root:[18/05/2020 10:20:31] - Stock Manager started successfully
+INFO:root:[18/05/2020 10:20:32] - Stock: AAPL data has been repopulated with a limit of 21.
+INFO:root:[18/05/2020 10:22:17] - Node created successfully
+INFO:root:[18/05/2020 10:22:17] - Node created successfully
+INFO:root:[18/05/2020 10:22:17] - Node created successfully
+INFO:root:[18/05/2020 10:22:17] - Network created successfully
+INFO:root:[18/05/2020 10:22:18] - Node created successfully
+INFO:root:[18/05/2020 10:22:18] - Node created successfully
+INFO:root:[18/05/2020 10:22:18] - Node created successfully
+INFO:root:[18/05/2020 10:22:18] - Network created successfully
+INFO:root:[18/05/2020 10:22:18] - Data Manager started successfully
+INFO:root:[18/05/2020 10:22:18] - Stock Manager started successfully
+INFO:root:[18/05/2020 10:22:19] - Stock: AAPL data has been repopulated with a limit of 21.
+INFO:root:[18/05/2020 10:22:44] - Node created successfully
+INFO:root:[18/05/2020 10:22:44] - Node created successfully
+INFO:root:[18/05/2020 10:22:44] - Node created successfully
+INFO:root:[18/05/2020 10:22:44] - Network created successfully
+INFO:root:[18/05/2020 10:22:45] - Node created successfully
+INFO:root:[18/05/2020 10:22:45] - Node created successfully
+INFO:root:[18/05/2020 10:22:45] - Node created successfully
+INFO:root:[18/05/2020 10:22:45] - Network created successfully
+INFO:root:[18/05/2020 10:22:45] - Data Manager started successfully
+INFO:root:[18/05/2020 10:22:45] - Stock Manager started successfully
+INFO:root:[18/05/2020 10:22:46] - Stock: AAPL data has been repopulated with a limit of 21.
+INFO:root:[18/05/2020 10:25:32] - Node created successfully
+INFO:root:[18/05/2020 10:25:32] - Node created successfully
+INFO:root:[18/05/2020 10:25:32] - Node created successfully
+INFO:root:[18/05/2020 10:25:44] - Node created successfully
+INFO:root:[18/05/2020 10:25:44] - Node created successfully
+INFO:root:[18/05/2020 10:25:44] - Node created successfully
+INFO:root:[18/05/2020 10:25:44] - Network created successfully
+INFO:root:[18/05/2020 10:25:45] - Node created successfully
+INFO:root:[18/05/2020 10:25:45] - Node created successfully
+INFO:root:[18/05/2020 10:25:45] - Node created successfully
+INFO:root:[18/05/2020 10:25:45] - Network created successfully
+INFO:root:[18/05/2020 10:25:45] - Data Manager started successfully
+INFO:root:[18/05/2020 10:25:46] - Stock Manager started successfully
+INFO:root:[18/05/2020 10:25:47] - Stock: AAPL data has been repopulated with a limit of 21.
+INFO:root:[18/05/2020 10:28:56] - Node created successfully
+INFO:root:[18/05/2020 10:28:56] - Node created successfully
+INFO:root:[18/05/2020 10:28:56] - Node created successfully
+INFO:root:[18/05/2020 10:28:56] - Network created successfully
+INFO:root:[18/05/2020 10:28:57] - Node created successfully
+INFO:root:[18/05/2020 10:28:57] - Node created successfully
+INFO:root:[18/05/2020 10:28:57] - Node created successfully
+INFO:root:[18/05/2020 10:28:57] - Network created successfully
+INFO:root:[18/05/2020 10:28:57] - Data Manager started successfully
+INFO:root:[18/05/2020 10:28:58] - Stock Manager started successfully
+INFO:root:[18/05/2020 10:28:59] - Stock: AAPL data has been repopulated with a limit of 21.
+INFO:root:[18/05/2020 10:30:11] - Node created successfully
+INFO:root:[18/05/2020 10:30:11] - Node created successfully
+INFO:root:[18/05/2020 10:30:11] - Node created successfully
+INFO:root:[18/05/2020 10:30:11] - Network created successfully
+INFO:root:[18/05/2020 10:30:14] - Node created successfully
+INFO:root:[18/05/2020 10:30:14] - Node created successfully
+INFO:root:[18/05/2020 10:30:14] - Node created successfully
+INFO:root:[18/05/2020 10:30:14] - Network created successfully
+INFO:root:[18/05/2020 10:30:14] - Data Manager started successfully
+INFO:root:[18/05/2020 10:30:14] - Stock Manager started successfully
+INFO:root:[18/05/2020 10:30:15] - Stock: AAPL data has been repopulated with a limit of 21.
+INFO:root:[18/05/2020 10:31:31] - Node created successfully
+INFO:root:[18/05/2020 10:31:31] - Node created successfully
+INFO:root:[18/05/2020 10:31:31] - Node created successfully
+INFO:root:[18/05/2020 10:31:31] - Network created successfully
+INFO:root:[18/05/2020 10:31:32] - Node created successfully
+INFO:root:[18/05/2020 10:31:32] - Node created successfully
+INFO:root:[18/05/2020 10:31:32] - Node created successfully
+INFO:root:[18/05/2020 10:31:32] - Network created successfully
+INFO:root:[18/05/2020 10:31:32] - Data Manager started successfully
+INFO:root:[18/05/2020 10:31:33] - Stock Manager started successfully
+INFO:root:[18/05/2020 10:31:34] - Stock: AAPL data has been repopulated with a limit of 21.
+INFO:root:[18/05/2020 10:33:18] - Node created successfully
+INFO:root:[18/05/2020 10:33:18] - Node created successfully
+INFO:root:[18/05/2020 10:33:18] - Node created successfully
+INFO:root:[18/05/2020 10:33:18] - Network created successfully
+INFO:root:[18/05/2020 10:33:19] - Node created successfully
+INFO:root:[18/05/2020 10:33:19] - Node created successfully
+INFO:root:[18/05/2020 10:33:19] - Node created successfully
+INFO:root:[18/05/2020 10:33:19] - Network created successfully
+INFO:root:[18/05/2020 10:33:19] - Data Manager started successfully
+INFO:root:[18/05/2020 10:33:20] - Stock Manager started successfully
+INFO:root:[18/05/2020 10:33:21] - Stock: AAPL data has been repopulated with a limit of 21.
+INFO:root:[18/05/2020 10:34:23] - Node created successfully
+INFO:root:[18/05/2020 10:34:23] - Node created successfully
+INFO:root:[18/05/2020 10:34:23] - Node created successfully
+INFO:root:[18/05/2020 10:34:23] - Network created successfully
+INFO:root:[18/05/2020 10:34:24] - Node created successfully
+INFO:root:[18/05/2020 10:34:24] - Node created successfully
+INFO:root:[18/05/2020 10:34:24] - Node created successfully
+INFO:root:[18/05/2020 10:34:24] - Network created successfully
+INFO:root:[18/05/2020 10:34:24] - Data Manager started successfully
+INFO:root:[18/05/2020 10:34:24] - Stock Manager started successfully
+INFO:root:[18/05/2020 10:34:26] - Stock: AAPL data has been repopulated with a limit of 21.
+INFO:root:[18/05/2020 10:35:06] - Node created successfully
+INFO:root:[18/05/2020 10:35:06] - Node created successfully
+INFO:root:[18/05/2020 10:35:06] - Node created successfully
+INFO:root:[18/05/2020 10:35:06] - Network created successfully
+INFO:root:[18/05/2020 10:35:07] - Node created successfully
+INFO:root:[18/05/2020 10:35:07] - Node created successfully
+INFO:root:[18/05/2020 10:35:07] - Node created successfully
+INFO:root:[18/05/2020 10:35:07] - Network created successfully
+INFO:root:[18/05/2020 10:35:07] - Data Manager started successfully
+INFO:root:[18/05/2020 10:35:08] - Stock Manager started successfully
+INFO:root:[18/05/2020 10:35:09] - Stock: AAPL data has been repopulated with a limit of 21.
+INFO:root:[18/05/2020 10:35:39] - Node created successfully
+INFO:root:[18/05/2020 10:35:39] - Node created successfully
+INFO:root:[18/05/2020 10:35:39] - Node created successfully
+INFO:root:[18/05/2020 10:35:39] - Network created successfully
+INFO:root:[18/05/2020 10:35:40] - Node created successfully
+INFO:root:[18/05/2020 10:35:40] - Node created successfully
+INFO:root:[18/05/2020 10:35:40] - Node created successfully
+INFO:root:[18/05/2020 10:35:40] - Network created successfully
+INFO:root:[18/05/2020 10:35:40] - Data Manager started successfully
+INFO:root:[18/05/2020 10:35:41] - Stock Manager started successfully
+INFO:root:[18/05/2020 10:35:42] - Stock: AAPL data has been repopulated with a limit of 21.
+INFO:root:[18/05/2020 10:36:43] - Node created successfully
+INFO:root:[18/05/2020 10:36:43] - Node created successfully
+INFO:root:[18/05/2020 10:36:43] - Node created successfully
+INFO:root:[18/05/2020 10:36:43] - Network created successfully
+INFO:root:[18/05/2020 10:36:44] - Node created successfully
+INFO:root:[18/05/2020 10:36:44] - Node created successfully
+INFO:root:[18/05/2020 10:36:44] - Node created successfully
+INFO:root:[18/05/2020 10:36:44] - Network created successfully
+INFO:root:[18/05/2020 10:36:44] - Data Manager started successfully
+INFO:root:[18/05/2020 10:36:45] - Stock Manager started successfully
+INFO:root:[18/05/2020 10:36:46] - Stock: AAPL data has been repopulated with a limit of 21.
+INFO:root:[18/05/2020 10:38:06] - Node created successfully
+INFO:root:[18/05/2020 10:38:06] - Node created successfully
+INFO:root:[18/05/2020 10:38:06] - Node created successfully
+INFO:root:[18/05/2020 10:38:06] - Network created successfully
+INFO:root:[18/05/2020 10:38:07] - Node created successfully
+INFO:root:[18/05/2020 10:38:07] - Node created successfully
+INFO:root:[18/05/2020 10:38:07] - Node created successfully
+INFO:root:[18/05/2020 10:38:07] - Network created successfully
+INFO:root:[18/05/2020 10:38:07] - Data Manager started successfully
+INFO:root:[18/05/2020 10:38:08] - Stock Manager started successfully
+INFO:root:[18/05/2020 10:38:10] - Stock: AAPL data has been repopulated with a limit of 21.
+INFO:root:[18/05/2020 10:38:30] - Node created successfully
+INFO:root:[18/05/2020 10:38:30] - Node created successfully
+INFO:root:[18/05/2020 10:38:30] - Node created successfully
+INFO:root:[18/05/2020 10:38:30] - Network created successfully
+INFO:root:[18/05/2020 10:38:31] - Node created successfully
+INFO:root:[18/05/2020 10:38:31] - Node created successfully
+INFO:root:[18/05/2020 10:38:31] - Node created successfully
+INFO:root:[18/05/2020 10:38:31] - Network created successfully
+INFO:root:[18/05/2020 10:38:31] - Data Manager started successfully
+INFO:root:[18/05/2020 10:38:32] - Stock Manager started successfully
+INFO:root:[18/05/2020 10:38:33] - Stock: AAPL data has been repopulated with a limit of 21.
+INFO:root:[18/05/2020 10:39:30] - Node created successfully
+INFO:root:[18/05/2020 10:39:30] - Node created successfully
+INFO:root:[18/05/2020 10:39:30] - Node created successfully
+INFO:root:[18/05/2020 10:39:30] - Network created successfully
+INFO:root:[18/05/2020 10:39:30] - Node created successfully
+INFO:root:[18/05/2020 10:39:30] - Node created successfully
+INFO:root:[18/05/2020 10:39:30] - Node created successfully
+INFO:root:[18/05/2020 10:39:30] - Network created successfully
+INFO:root:[18/05/2020 10:39:30] - Data Manager started successfully
+INFO:root:[18/05/2020 10:39:31] - Stock Manager started successfully
+INFO:root:[18/05/2020 10:39:32] - Stock: AAPL data has been repopulated with a limit of 21.
+INFO:root:[18/05/2020 10:40:00] - Node created successfully
+INFO:root:[18/05/2020 10:40:00] - Node created successfully
+INFO:root:[18/05/2020 10:40:00] - Node created successfully
+INFO:root:[18/05/2020 10:40:00] - Network created successfully
+INFO:root:[18/05/2020 10:40:01] - Node created successfully
+INFO:root:[18/05/2020 10:40:01] - Node created successfully
+INFO:root:[18/05/2020 10:40:01] - Node created successfully
+INFO:root:[18/05/2020 10:40:01] - Network created successfully
+INFO:root:[18/05/2020 10:40:01] - Data Manager started successfully
+INFO:root:[18/05/2020 10:40:02] - Stock Manager started successfully
+INFO:root:[18/05/2020 10:40:03] - Stock: AAPL data has been repopulated with a limit of 21.
+INFO:root:[18/05/2020 10:41:03] - Node created successfully
+INFO:root:[18/05/2020 10:41:03] - Node created successfully
+INFO:root:[18/05/2020 10:41:03] - Node created successfully
+INFO:root:[18/05/2020 10:41:03] - Network created successfully
+INFO:root:[18/05/2020 10:41:04] - Node created successfully
+INFO:root:[18/05/2020 10:41:04] - Node created successfully
+INFO:root:[18/05/2020 10:41:04] - Node created successfully
+INFO:root:[18/05/2020 10:41:04] - Network created successfully
+INFO:root:[18/05/2020 10:41:04] - Data Manager started successfully
+INFO:root:[18/05/2020 10:41:04] - Stock Manager started successfully
+INFO:root:[18/05/2020 10:41:05] - Stock: AAPL data has been repopulated with a limit of 21.
+INFO:root:[18/05/2020 10:42:22] - Node created successfully
+INFO:root:[18/05/2020 10:42:22] - Node created successfully
+INFO:root:[18/05/2020 10:42:22] - Node created successfully
+INFO:root:[18/05/2020 10:42:22] - Network created successfully
+INFO:root:[18/05/2020 10:42:23] - Node created successfully
+INFO:root:[18/05/2020 10:42:23] - Node created successfully
+INFO:root:[18/05/2020 10:42:23] - Node created successfully
+INFO:root:[18/05/2020 10:42:23] - Network created successfully
+INFO:root:[18/05/2020 10:42:23] - Data Manager started successfully
+INFO:root:[18/05/2020 10:42:24] - Stock Manager started successfully
+INFO:root:[18/05/2020 10:42:25] - Stock: AAPL data has been repopulated with a limit of 21.
+INFO:root:[18/05/2020 10:42:58] - Node created successfully
+INFO:root:[18/05/2020 10:42:58] - Node created successfully
+INFO:root:[18/05/2020 10:42:58] - Node created successfully
+INFO:root:[18/05/2020 10:42:58] - Network created successfully
+INFO:root:[18/05/2020 10:42:59] - Node created successfully
+INFO:root:[18/05/2020 10:42:59] - Node created successfully
+INFO:root:[18/05/2020 10:42:59] - Node created successfully
+INFO:root:[18/05/2020 10:42:59] - Network created successfully
+INFO:root:[18/05/2020 10:42:59] - Data Manager started successfully
+INFO:root:[18/05/2020 10:43:00] - Stock Manager started successfully
+INFO:root:[18/05/2020 10:43:01] - Stock: AAPL data has been repopulated with a limit of 21.
+INFO:root:[18/05/2020 10:43:02] - Stock: MSFT data has been repopulated with a limit of 21.
+INFO:root:[18/05/2020 10:45:46] - Node created successfully
+INFO:root:[18/05/2020 10:45:46] - Node created successfully
+INFO:root:[18/05/2020 10:45:46] - Node created successfully
+INFO:root:[18/05/2020 10:45:46] - Network created successfully
+INFO:root:[18/05/2020 10:45:47] - Node created successfully
+INFO:root:[18/05/2020 10:45:47] - Node created successfully
+INFO:root:[18/05/2020 10:45:47] - Node created successfully
+INFO:root:[18/05/2020 10:45:47] - Network created successfully
+INFO:root:[18/05/2020 10:45:47] - Data Manager started successfully
+INFO:root:[18/05/2020 10:45:48] - Stock Manager started successfully
+INFO:root:[18/05/2020 10:45:49] - Stock: AAPL data has been repopulated with a limit of 21.
+INFO:root:[18/05/2020 10:45:49] - Stock: MSFT data has been repopulated with a limit of 21.
+INFO:root:[22/05/2020 15:19:41] - Node created successfully
+INFO:root:[22/05/2020 15:19:41] - Node created successfully
+INFO:root:[22/05/2020 15:19:41] - Node created successfully
+INFO:root:[22/05/2020 15:19:41] - Network created successfully
+INFO:root:[22/05/2020 15:19:41] - Node created successfully
+INFO:root:[22/05/2020 15:19:41] - Node created successfully
+INFO:root:[22/05/2020 15:19:41] - Node created successfully
+INFO:root:[22/05/2020 15:19:41] - Network created successfully
+INFO:root:[22/05/2020 15:19:41] - Data Manager started successfully
+INFO:root:[22/05/2020 15:19:42] - Stock Manager started successfully
+INFO:root:[22/05/2020 15:19:43] - Stock: AAPL data has been repopulated with a limit of 21.
+INFO:root:[22/05/2020 15:19:43] - Stock: MSFT data has been repopulated with a limit of 21.
+INFO:root:[22/05/2020 15:25:57] - Node created successfully
+INFO:root:[22/05/2020 15:25:57] - Node created successfully
+INFO:root:[22/05/2020 15:25:57] - Node created successfully
+INFO:root:[22/05/2020 15:25:57] - Network created successfully
+INFO:root:[22/05/2020 15:25:58] - Node created successfully
+INFO:root:[22/05/2020 15:25:58] - Node created successfully
+INFO:root:[22/05/2020 15:25:58] - Node created successfully
+INFO:root:[22/05/2020 15:25:58] - Network created successfully
+INFO:root:[22/05/2020 15:25:58] - Data Manager started successfully
+INFO:root:[22/05/2020 15:25:59] - Stock Manager started successfully
+INFO:root:[22/05/2020 15:25:59] - Stock: AAPL data has been repopulated with a limit of 21.
+INFO:root:[23/05/2020 21:01:02] - Node created successfully
+INFO:root:[23/05/2020 21:01:02] - Node created successfully
+INFO:root:[23/05/2020 21:01:02] - Node created successfully
+INFO:root:[23/05/2020 21:01:02] - Network created successfully
+INFO:root:[23/05/2020 21:01:03] - Node created successfully
+INFO:root:[23/05/2020 21:01:03] - Node created successfully
+INFO:root:[23/05/2020 21:01:03] - Node created successfully
+INFO:root:[23/05/2020 21:01:03] - Network created successfully
+INFO:root:[23/05/2020 21:01:03] - Data Manager started successfully
+INFO:root:[23/05/2020 21:01:04] - Stock Manager started successfully
+INFO:root:[23/05/2020 21:28:16] - Node created successfully
+INFO:root:[23/05/2020 21:28:16] - Node created successfully
+INFO:root:[23/05/2020 21:28:16] - Node created successfully
+INFO:root:[23/05/2020 21:28:16] - Network created successfully
+INFO:root:[23/05/2020 21:28:17] - Node created successfully
+INFO:root:[23/05/2020 21:28:17] - Node created successfully
+INFO:root:[23/05/2020 21:28:17] - Node created successfully
+INFO:root:[23/05/2020 21:28:17] - Network created successfully
+INFO:root:[23/05/2020 21:28:17] - Data Manager started successfully
+INFO:root:[23/05/2020 21:28:17] - Stock Manager started successfully
+INFO:root:[23/05/2020 21:30:41] - Node created successfully
+INFO:root:[23/05/2020 21:30:41] - Node created successfully
+INFO:root:[23/05/2020 21:30:41] - Node created successfully
+INFO:root:[23/05/2020 21:30:41] - Network created successfully
+INFO:root:[23/05/2020 21:30:42] - Node created successfully
+INFO:root:[23/05/2020 21:30:42] - Node created successfully
+INFO:root:[23/05/2020 21:30:42] - Node created successfully
+INFO:root:[23/05/2020 21:30:42] - Network created successfully
+INFO:root:[23/05/2020 21:30:42] - Data Manager started successfully
+INFO:root:[23/05/2020 21:30:42] - Stock Manager started successfully
+INFO:root:[23/05/2020 21:45:12] - Node created successfully
+INFO:root:[23/05/2020 21:45:12] - Node created successfully
+INFO:root:[23/05/2020 21:45:12] - Node created successfully
+INFO:root:[23/05/2020 21:45:12] - Network created successfully
+INFO:root:[23/05/2020 21:45:13] - Node created successfully
+INFO:root:[23/05/2020 21:45:13] - Node created successfully
+INFO:root:[23/05/2020 21:45:13] - Node created successfully
+INFO:root:[23/05/2020 21:45:13] - Network created successfully
+INFO:root:[23/05/2020 21:45:13] - Data Manager started successfully
+INFO:root:[23/05/2020 21:45:13] - Stock Manager started successfully
+INFO:root:[23/05/2020 21:46:47] - Node created successfully
+INFO:root:[23/05/2020 21:46:47] - Node created successfully
+INFO:root:[23/05/2020 21:46:47] - Node created successfully
+INFO:root:[23/05/2020 21:46:47] - Network created successfully
+INFO:root:[23/05/2020 21:46:48] - Node created successfully
+INFO:root:[23/05/2020 21:46:48] - Node created successfully
+INFO:root:[23/05/2020 21:46:48] - Node created successfully
+INFO:root:[23/05/2020 21:46:48] - Network created successfully
+INFO:root:[23/05/2020 21:46:48] - Data Manager started successfully
+INFO:root:[23/05/2020 21:46:49] - Stock Manager started successfully
+INFO:root:[23/05/2020 21:48:10] - Node created successfully
+INFO:root:[23/05/2020 21:48:10] - Node created successfully
+INFO:root:[23/05/2020 21:48:10] - Node created successfully
+INFO:root:[23/05/2020 21:48:10] - Network created successfully
+INFO:root:[23/05/2020 21:48:11] - Node created successfully
+INFO:root:[23/05/2020 21:48:11] - Node created successfully
+INFO:root:[23/05/2020 21:48:11] - Node created successfully
+INFO:root:[23/05/2020 21:48:11] - Network created successfully
+INFO:root:[23/05/2020 21:48:11] - Data Manager started successfully
+INFO:root:[23/05/2020 21:48:11] - Stock Manager started successfully
+INFO:root:[23/05/2020 21:48:12] - Stock: AAPL data has been repopulated with a limit of 21.
+INFO:root:[23/05/2020 21:48:45] - Node created successfully
+INFO:root:[23/05/2020 21:48:45] - Node created successfully
+INFO:root:[23/05/2020 21:48:45] - Node created successfully
+INFO:root:[23/05/2020 21:48:45] - Network created successfully
+INFO:root:[23/05/2020 21:48:46] - Node created successfully
+INFO:root:[23/05/2020 21:48:46] - Node created successfully
+INFO:root:[23/05/2020 21:48:46] - Node created successfully
+INFO:root:[23/05/2020 21:48:46] - Network created successfully
+INFO:root:[23/05/2020 21:48:46] - Data Manager started successfully
+INFO:root:[23/05/2020 21:48:47] - Stock Manager started successfully
+INFO:root:[23/05/2020 21:51:04] - Node created successfully
+INFO:root:[23/05/2020 21:51:04] - Node created successfully
+INFO:root:[23/05/2020 21:51:04] - Node created successfully
+INFO:root:[23/05/2020 21:51:04] - Network created successfully
+INFO:root:[23/05/2020 21:51:05] - Node created successfully
+INFO:root:[23/05/2020 21:51:05] - Node created successfully
+INFO:root:[23/05/2020 21:51:05] - Node created successfully
+INFO:root:[23/05/2020 21:51:05] - Network created successfully
+INFO:root:[23/05/2020 21:51:05] - Data Manager started successfully
+INFO:root:[23/05/2020 21:51:05] - Stock Manager started successfully
+INFO:root:[23/05/2020 21:51:14] - Node created successfully
+INFO:root:[23/05/2020 21:51:14] - Node created successfully
+INFO:root:[23/05/2020 21:51:14] - Node created successfully
+INFO:root:[23/05/2020 21:51:14] - Network created successfully
+INFO:root:[23/05/2020 21:51:15] - Node created successfully
+INFO:root:[23/05/2020 21:51:15] - Node created successfully
+INFO:root:[23/05/2020 21:51:15] - Node created successfully
+INFO:root:[23/05/2020 21:51:15] - Network created successfully
+INFO:root:[23/05/2020 21:51:15] - Data Manager started successfully
+INFO:root:[23/05/2020 21:51:15] - Stock Manager started successfully
+INFO:root:[24/05/2020 09:06:16] - Node created successfully
+INFO:root:[24/05/2020 09:06:16] - Node created successfully
+INFO:root:[24/05/2020 09:06:16] - Node created successfully
+INFO:root:[24/05/2020 09:06:16] - Network created successfully
+INFO:root:[24/05/2020 09:06:17] - Node created successfully
+INFO:root:[24/05/2020 09:06:17] - Node created successfully
+INFO:root:[24/05/2020 09:06:17] - Node created successfully
+INFO:root:[24/05/2020 09:06:17] - Network created successfully
+INFO:root:[24/05/2020 09:06:17] - Data Manager started successfully
+INFO:root:[24/05/2020 09:06:17] - Stock Manager started successfully
+INFO:root:[24/05/2020 09:22:04] - Node created successfully
+INFO:root:[24/05/2020 09:22:04] - Node created successfully
+INFO:root:[24/05/2020 09:22:04] - Node created successfully
+INFO:root:[24/05/2020 09:22:04] - Network created successfully
+INFO:root:[24/05/2020 09:22:05] - Node created successfully
+INFO:root:[24/05/2020 09:22:05] - Node created successfully
+INFO:root:[24/05/2020 09:22:05] - Node created successfully
+INFO:root:[24/05/2020 09:22:05] - Network created successfully
+INFO:root:[24/05/2020 09:22:05] - Data Manager started successfully
+INFO:root:[24/05/2020 09:22:05] - Stock Manager started successfully
+INFO:root:[24/05/2020 09:22:06] - Stock: AAPL data has been repopulated with a limit of 250.
+INFO:root:[24/05/2020 09:22:41] - Node created successfully
+INFO:root:[24/05/2020 09:22:41] - Node created successfully
+INFO:root:[24/05/2020 09:22:41] - Node created successfully
+INFO:root:[24/05/2020 09:22:41] - Network created successfully
+INFO:root:[24/05/2020 09:22:42] - Node created successfully
+INFO:root:[24/05/2020 09:22:42] - Node created successfully
+INFO:root:[24/05/2020 09:22:42] - Node created successfully
+INFO:root:[24/05/2020 09:22:42] - Network created successfully
+INFO:root:[24/05/2020 09:22:42] - Data Manager started successfully
+INFO:root:[24/05/2020 09:22:42] - Stock Manager started successfully
+INFO:root:[24/05/2020 09:22:43] - Stock: AAPL data has been repopulated with a limit of 250.
+INFO:root:[24/05/2020 09:23:01] - Node created successfully
+INFO:root:[24/05/2020 09:23:01] - Node created successfully
+INFO:root:[24/05/2020 09:23:01] - Node created successfully
+INFO:root:[24/05/2020 09:23:01] - Network created successfully
+INFO:root:[24/05/2020 09:23:01] - Node created successfully
+INFO:root:[24/05/2020 09:23:01] - Node created successfully
+INFO:root:[24/05/2020 09:23:01] - Node created successfully
+INFO:root:[24/05/2020 09:23:01] - Network created successfully
+INFO:root:[24/05/2020 09:23:01] - Data Manager started successfully
+INFO:root:[24/05/2020 09:23:02] - Stock Manager started successfully
+INFO:root:[24/05/2020 09:23:02] - Stock: AAPL data has been repopulated with a limit of 250.
+INFO:root:[24/05/2020 13:59:45] - Node created successfully
+INFO:root:[24/05/2020 13:59:45] - Node created successfully
+INFO:root:[24/05/2020 13:59:45] - Node created successfully
+INFO:root:[24/05/2020 13:59:45] - Node created successfully
+INFO:root:[24/05/2020 13:59:45] - Node created successfully
+INFO:root:[24/05/2020 13:59:45] - Node created successfully
+INFO:root:[24/05/2020 13:59:45] - Network created successfully
+INFO:root:[24/05/2020 13:59:45] - Node created successfully
+INFO:root:[24/05/2020 13:59:45] - Node created successfully
+INFO:root:[24/05/2020 13:59:45] - Node created successfully
+INFO:root:[24/05/2020 13:59:45] - Node created successfully
+INFO:root:[24/05/2020 13:59:45] - Node created successfully
+INFO:root:[24/05/2020 13:59:45] - Node created successfully
+INFO:root:[24/05/2020 13:59:45] - Network created successfully
+INFO:root:[24/05/2020 13:59:45] - Data Manager started successfully
+INFO:root:[24/05/2020 13:59:46] - Stock Manager started successfully
+INFO:root:[24/05/2020 13:59:47] - Stock: AAPL data has been repopulated with a limit of 250.
+INFO:root:[24/05/2020 13:59:47] - Stock: MSFT data has been repopulated with a limit of 250.
+INFO:root:[24/05/2020 14:00:22] - Node created successfully
+INFO:root:[24/05/2020 14:00:22] - Node created successfully
+INFO:root:[24/05/2020 14:00:22] - Node created successfully
+INFO:root:[24/05/2020 14:00:22] - Node created successfully
+INFO:root:[24/05/2020 14:00:22] - Node created successfully
+INFO:root:[24/05/2020 14:00:22] - Node created successfully
+INFO:root:[24/05/2020 14:00:22] - Network created successfully
+INFO:root:[24/05/2020 14:00:23] - Node created successfully
+INFO:root:[24/05/2020 14:00:23] - Node created successfully
+INFO:root:[24/05/2020 14:00:23] - Node created successfully
+INFO:root:[24/05/2020 14:00:23] - Node created successfully
+INFO:root:[24/05/2020 14:00:23] - Node created successfully
+INFO:root:[24/05/2020 14:00:23] - Node created successfully
+INFO:root:[24/05/2020 14:00:23] - Network created successfully
+INFO:root:[24/05/2020 14:00:23] - Data Manager started successfully
+INFO:root:[24/05/2020 14:00:24] - Stock Manager started successfully
+INFO:root:[24/05/2020 14:00:25] - Stock: AAPL data has been repopulated with a limit of 250.
+INFO:root:[24/05/2020 14:05:12] - Stock: MSFT data has been repopulated with a limit of 250.
+INFO:root:[24/05/2020 19:43:13] - Node created successfully
+INFO:root:[24/05/2020 19:43:13] - Node created successfully
+INFO:root:[24/05/2020 19:43:13] - Node created successfully
+INFO:root:[24/05/2020 19:43:13] - Node created successfully
+INFO:root:[24/05/2020 19:43:13] - Node created successfully
+INFO:root:[24/05/2020 19:43:13] - Node created successfully
+INFO:root:[24/05/2020 19:43:13] - Network created successfully
+INFO:root:[24/05/2020 19:43:14] - Node created successfully
+INFO:root:[24/05/2020 19:43:14] - Node created successfully
+INFO:root:[24/05/2020 19:43:14] - Node created successfully
+INFO:root:[24/05/2020 19:43:14] - Node created successfully
+INFO:root:[24/05/2020 19:43:14] - Node created successfully
+INFO:root:[24/05/2020 19:43:14] - Node created successfully
+INFO:root:[24/05/2020 19:43:14] - Network created successfully
+INFO:root:[24/05/2020 19:43:14] - Data Manager started successfully
+INFO:root:[24/05/2020 19:43:14] - Stock Manager started successfully
+INFO:root:[24/05/2020 19:43:15] - Stock: AAPL data has been repopulated with a limit of 250.
+INFO:root:[24/05/2020 19:43:16] - Stock: MSFT data has been repopulated with a limit of 250.
+INFO:root:[25/05/2020 13:01:12] - Node created successfully
+INFO:root:[25/05/2020 13:01:12] - Node created successfully
+INFO:root:[25/05/2020 13:01:12] - Node created successfully
+INFO:root:[25/05/2020 13:01:12] - Node created successfully
+INFO:root:[25/05/2020 13:01:12] - Node created successfully
+INFO:root:[25/05/2020 13:01:12] - Node created successfully
+INFO:root:[25/05/2020 13:01:12] - Network created successfully
+INFO:root:[25/05/2020 13:01:13] - Node created successfully
+INFO:root:[25/05/2020 13:01:13] - Node created successfully
+INFO:root:[25/05/2020 13:01:13] - Node created successfully
+INFO:root:[25/05/2020 13:01:13] - Node created successfully
+INFO:root:[25/05/2020 13:01:13] - Node created successfully
+INFO:root:[25/05/2020 13:01:13] - Node created successfully
+INFO:root:[25/05/2020 13:01:13] - Network created successfully
+INFO:root:[25/05/2020 13:01:13] - Data Manager started successfully
+INFO:root:[25/05/2020 13:01:14] - Stock Manager started successfully
+INFO:root:[25/05/2020 13:01:15] - Stock: AAPL data has been repopulated with a limit of 250.
+INFO:root:[25/05/2020 13:53:04] - Node created successfully
+INFO:root:[25/05/2020 13:53:04] - Node created successfully
+INFO:root:[25/05/2020 13:53:04] - Node created successfully
+INFO:root:[25/05/2020 13:53:04] - Node created successfully
+INFO:root:[25/05/2020 13:53:04] - Node created successfully
+INFO:root:[25/05/2020 13:53:04] - Node created successfully
+INFO:root:[25/05/2020 13:53:04] - Network created successfully
+INFO:root:[25/05/2020 13:53:04] - Node created successfully
+INFO:root:[25/05/2020 13:53:04] - Node created successfully
+INFO:root:[25/05/2020 13:53:04] - Node created successfully
+INFO:root:[25/05/2020 13:53:04] - Node created successfully
+INFO:root:[25/05/2020 13:53:04] - Node created successfully
+INFO:root:[25/05/2020 13:53:04] - Node created successfully
+INFO:root:[25/05/2020 13:53:04] - Network created successfully
+INFO:root:[25/05/2020 13:53:04] - Data Manager started successfully
+INFO:root:[25/05/2020 13:53:05] - Stock Manager started successfully
+INFO:root:[25/05/2020 14:11:34] - Node created successfully
+INFO:root:[25/05/2020 14:11:34] - Node created successfully
+INFO:root:[25/05/2020 14:11:34] - Node created successfully
+INFO:root:[25/05/2020 14:11:34] - Node created successfully
+INFO:root:[25/05/2020 14:11:34] - Node created successfully
+INFO:root:[25/05/2020 14:11:34] - Node created successfully
+INFO:root:[25/05/2020 14:11:34] - Network created successfully
+INFO:root:[25/05/2020 14:11:34] - Node created successfully
+INFO:root:[25/05/2020 14:11:34] - Node created successfully
+INFO:root:[25/05/2020 14:11:34] - Node created successfully
+INFO:root:[25/05/2020 14:11:34] - Node created successfully
+INFO:root:[25/05/2020 14:11:34] - Node created successfully
+INFO:root:[25/05/2020 14:11:34] - Node created successfully
+INFO:root:[25/05/2020 14:11:34] - Network created successfully
+INFO:root:[25/05/2020 14:11:34] - Data Manager started successfully
+INFO:root:[25/05/2020 14:11:35] - Stock Manager started successfully
+INFO:root:[25/05/2020 14:24:39] - Node created successfully
+INFO:root:[25/05/2020 14:24:39] - Node created successfully
+INFO:root:[25/05/2020 14:24:39] - Node created successfully
+INFO:root:[25/05/2020 14:24:39] - Node created successfully
+INFO:root:[25/05/2020 14:24:39] - Node created successfully
+INFO:root:[25/05/2020 14:24:39] - Node created successfully
+INFO:root:[25/05/2020 14:24:39] - Network created successfully
+INFO:root:[25/05/2020 14:24:40] - Node created successfully
+INFO:root:[25/05/2020 14:24:40] - Node created successfully
+INFO:root:[25/05/2020 14:24:40] - Node created successfully
+INFO:root:[25/05/2020 14:24:40] - Node created successfully
+INFO:root:[25/05/2020 14:24:40] - Node created successfully
+INFO:root:[25/05/2020 14:24:40] - Node created successfully
+INFO:root:[25/05/2020 14:24:40] - Network created successfully
+INFO:root:[25/05/2020 14:24:40] - Data Manager started successfully
+INFO:root:[25/05/2020 14:24:40] - Stock Manager started successfully
+INFO:root:[25/05/2020 14:29:25] - Node created successfully
+INFO:root:[25/05/2020 14:29:25] - Node created successfully
+INFO:root:[25/05/2020 14:29:25] - Node created successfully
+INFO:root:[25/05/2020 14:29:25] - Node created successfully
+INFO:root:[25/05/2020 14:29:25] - Node created successfully
+INFO:root:[25/05/2020 14:29:25] - Node created successfully
+INFO:root:[25/05/2020 14:29:25] - Network created successfully
+INFO:root:[25/05/2020 14:29:25] - Node created successfully
+INFO:root:[25/05/2020 14:29:25] - Node created successfully
+INFO:root:[25/05/2020 14:29:25] - Node created successfully
+INFO:root:[25/05/2020 14:29:25] - Node created successfully
+INFO:root:[25/05/2020 14:29:25] - Node created successfully
+INFO:root:[25/05/2020 14:29:25] - Node created successfully
+INFO:root:[25/05/2020 14:29:25] - Network created successfully
+INFO:root:[25/05/2020 14:29:25] - Data Manager started successfully
+INFO:root:[25/05/2020 14:29:26] - Stock Manager started successfully
+INFO:root:[25/05/2020 14:31:29] - Node created successfully
+INFO:root:[25/05/2020 14:31:29] - Node created successfully
+INFO:root:[25/05/2020 14:31:29] - Node created successfully
+INFO:root:[25/05/2020 14:31:29] - Node created successfully
+INFO:root:[25/05/2020 14:31:29] - Node created successfully
+INFO:root:[25/05/2020 14:31:29] - Node created successfully
+INFO:root:[25/05/2020 14:31:29] - Network created successfully
+INFO:root:[25/05/2020 14:31:30] - Node created successfully
+INFO:root:[25/05/2020 14:31:30] - Node created successfully
+INFO:root:[25/05/2020 14:31:30] - Node created successfully
+INFO:root:[25/05/2020 14:31:30] - Node created successfully
+INFO:root:[25/05/2020 14:31:30] - Node created successfully
+INFO:root:[25/05/2020 14:31:30] - Node created successfully
+INFO:root:[25/05/2020 14:31:30] - Network created successfully
+INFO:root:[25/05/2020 14:31:30] - Data Manager started successfully
+INFO:root:[25/05/2020 14:31:31] - Stock Manager started successfully
+INFO:root:[25/05/2020 14:35:17] - Stock: AAPL data has been repopulated with a limit of 250.
+INFO:root:[25/05/2020 14:36:07] - Node created successfully
+INFO:root:[25/05/2020 14:36:07] - Node created successfully
+INFO:root:[25/05/2020 14:36:07] - Node created successfully
+INFO:root:[25/05/2020 14:36:07] - Node created successfully
+INFO:root:[25/05/2020 14:36:07] - Node created successfully
+INFO:root:[25/05/2020 14:36:07] - Node created successfully
+INFO:root:[25/05/2020 14:36:07] - Network created successfully
+INFO:root:[25/05/2020 14:36:08] - Node created successfully
+INFO:root:[25/05/2020 14:36:08] - Node created successfully
+INFO:root:[25/05/2020 14:36:08] - Node created successfully
+INFO:root:[25/05/2020 14:36:08] - Node created successfully
+INFO:root:[25/05/2020 14:36:08] - Node created successfully
+INFO:root:[25/05/2020 14:36:08] - Node created successfully
+INFO:root:[25/05/2020 14:36:08] - Network created successfully
+INFO:root:[25/05/2020 14:36:08] - Data Manager started successfully
+INFO:root:[25/05/2020 14:36:09] - Stock Manager started successfully
+INFO:root:[25/05/2020 14:36:09] - Stock: AAPL data has been repopulated with a limit of 250.
+INFO:root:[25/05/2020 14:36:10] - Stock: MSFT data has been repopulated with a limit of 250.
+INFO:root:[25/05/2020 14:50:53] - Node created successfully
+INFO:root:[25/05/2020 14:50:53] - Node created successfully
+INFO:root:[25/05/2020 14:50:53] - Node created successfully
+INFO:root:[25/05/2020 14:50:53] - Node created successfully
+INFO:root:[25/05/2020 14:50:53] - Node created successfully
+INFO:root:[25/05/2020 14:50:53] - Node created successfully
+INFO:root:[25/05/2020 14:50:53] - Network created successfully
+INFO:root:[25/05/2020 14:50:54] - Node created successfully
+INFO:root:[25/05/2020 14:50:54] - Node created successfully
+INFO:root:[25/05/2020 14:50:54] - Node created successfully
+INFO:root:[25/05/2020 14:50:54] - Node created successfully
+INFO:root:[25/05/2020 14:50:54] - Node created successfully
+INFO:root:[25/05/2020 14:50:54] - Node created successfully
+INFO:root:[25/05/2020 14:50:54] - Network created successfully
+INFO:root:[25/05/2020 14:50:54] - Data Manager started successfully
+INFO:root:[25/05/2020 14:50:54] - Stock Manager started successfully
+INFO:root:[25/05/2020 14:50:55] - Stock: AAPL data has been repopulated with a limit of 250.
+INFO:root:[25/05/2020 14:54:28] - Node created successfully
+INFO:root:[25/05/2020 14:54:28] - Node created successfully
+INFO:root:[25/05/2020 14:54:28] - Node created successfully
+INFO:root:[25/05/2020 14:54:28] - Node created successfully
+INFO:root:[25/05/2020 14:54:28] - Node created successfully
+INFO:root:[25/05/2020 14:54:28] - Node created successfully
+INFO:root:[25/05/2020 14:54:28] - Network created successfully
+INFO:root:[25/05/2020 14:54:29] - Node created successfully
+INFO:root:[25/05/2020 14:54:29] - Node created successfully
+INFO:root:[25/05/2020 14:54:29] - Node created successfully
+INFO:root:[25/05/2020 14:54:29] - Node created successfully
+INFO:root:[25/05/2020 14:54:29] - Node created successfully
+INFO:root:[25/05/2020 14:54:29] - Node created successfully
+INFO:root:[25/05/2020 14:54:29] - Network created successfully
+INFO:root:[25/05/2020 14:54:29] - Data Manager started successfully
+INFO:root:[25/05/2020 14:54:29] - Stock Manager started successfully
+INFO:root:[25/05/2020 14:54:32] - Stock: AAPL data has been repopulated with a limit of 250.
+INFO:root:[25/05/2020 14:58:55] - Node created successfully
+INFO:root:[25/05/2020 14:58:55] - Node created successfully
+INFO:root:[25/05/2020 14:58:55] - Node created successfully
+INFO:root:[25/05/2020 14:58:55] - Node created successfully
+INFO:root:[25/05/2020 14:58:55] - Node created successfully
+INFO:root:[25/05/2020 14:58:55] - Node created successfully
+INFO:root:[25/05/2020 14:58:55] - Network created successfully
+INFO:root:[25/05/2020 14:58:56] - Node created successfully
+INFO:root:[25/05/2020 14:58:56] - Node created successfully
+INFO:root:[25/05/2020 14:58:56] - Node created successfully
+INFO:root:[25/05/2020 14:58:56] - Node created successfully
+INFO:root:[25/05/2020 14:58:56] - Node created successfully
+INFO:root:[25/05/2020 14:58:56] - Node created successfully
+INFO:root:[25/05/2020 14:58:56] - Network created successfully
+INFO:root:[25/05/2020 14:58:56] - Data Manager started successfully
+INFO:root:[25/05/2020 14:58:56] - Stock Manager started successfully
+INFO:root:[25/05/2020 14:58:57] - Stock: AAPL data has been repopulated with a limit of 250.
+INFO:root:[26/05/2020 20:26:44] - Network created successfully
+INFO:root:[26/05/2020 20:26:45] - Network created successfully
+INFO:root:[26/05/2020 20:26:45] - Data Manager started successfully
+INFO:root:[26/05/2020 20:26:45] - Stock Manager started successfully
+INFO:root:[26/05/2020 20:26:46] - Stock: AAPL data has been repopulated with a limit of 250.
+INFO:root:[26/05/2020 20:28:28] - Network created successfully
+INFO:root:[26/05/2020 20:28:29] - Network created successfully
+INFO:root:[26/05/2020 20:28:29] - Data Manager started successfully
+INFO:root:[26/05/2020 20:28:30] - Stock Manager started successfully
+INFO:root:[26/05/2020 20:28:31] - Stock: AAPL data has been repopulated with a limit of 250.
+INFO:root:[26/05/2020 20:28:59] - Network created successfully
+INFO:root:[26/05/2020 20:28:59] - Network created successfully
+INFO:root:[26/05/2020 20:28:59] - Data Manager started successfully
+INFO:root:[26/05/2020 20:29:00] - Stock Manager started successfully
+INFO:root:[26/05/2020 20:29:01] - Stock: AAPL data has been repopulated with a limit of 250.
+INFO:root:[26/05/2020 20:29:22] - Network created successfully
+INFO:root:[26/05/2020 20:29:22] - Network created successfully
+INFO:root:[26/05/2020 20:29:22] - Data Manager started successfully
+INFO:root:[26/05/2020 20:29:23] - Stock Manager started successfully
+INFO:root:[26/05/2020 20:29:24] - Stock: AAPL data has been repopulated with a limit of 250.
+INFO:root:[26/05/2020 20:31:43] - Network created successfully
+INFO:root:[26/05/2020 20:31:44] - Network created successfully
+INFO:root:[26/05/2020 20:31:44] - Data Manager started successfully
+INFO:root:[26/05/2020 20:31:44] - Stock Manager started successfully
+INFO:root:[26/05/2020 20:31:45] - Stock: AAPL data has been repopulated with a limit of 250.
+INFO:root:[26/05/2020 20:32:25] - Network created successfully
+INFO:root:[26/05/2020 20:32:26] - Network created successfully
+INFO:root:[26/05/2020 20:32:26] - Data Manager started successfully
+INFO:root:[26/05/2020 20:32:27] - Stock Manager started successfully
+INFO:root:[26/05/2020 20:32:28] - Stock: AAPL data has been repopulated with a limit of 250.
+INFO:root:[26/05/2020 20:35:35] - Network created successfully
+INFO:root:[26/05/2020 20:35:41] - Network created successfully
+INFO:root:[26/05/2020 20:35:42] - Network created successfully
+INFO:root:[26/05/2020 20:35:42] - Data Manager started successfully
+INFO:root:[26/05/2020 20:35:42] - Stock Manager started successfully
+INFO:root:[26/05/2020 20:35:43] - Stock: AAPL data has been repopulated with a limit of 250.
+INFO:root:[26/05/2020 20:42:15] - Network created successfully
+INFO:root:[26/05/2020 20:42:15] - Network created successfully
+INFO:root:[26/05/2020 20:42:15] - Data Manager started successfully
+INFO:root:[26/05/2020 20:42:16] - Stock Manager started successfully
+INFO:root:[26/05/2020 20:42:17] - Stock: AAPL data has been repopulated with a limit of 250.
+INFO:root:[26/05/2020 20:43:29] - Network created successfully
+INFO:root:[26/05/2020 20:43:30] - Network created successfully
+INFO:root:[26/05/2020 20:43:30] - Data Manager started successfully
+INFO:root:[26/05/2020 20:43:30] - Stock Manager started successfully
+INFO:root:[26/05/2020 20:43:31] - Stock: AAPL data has been repopulated with a limit of 250.
+INFO:root:[26/05/2020 21:17:16] - Network created successfully
+INFO:root:[26/05/2020 21:17:17] - Network created successfully
+INFO:root:[26/05/2020 21:17:17] - Data Manager started successfully
+INFO:root:[26/05/2020 21:17:18] - Stock Manager started successfully
+INFO:root:[26/05/2020 21:17:18] - Stock: AAPL data has been repopulated with a limit of 250.
+INFO:root:[26/05/2020 21:18:17] - Network created successfully
+INFO:root:[26/05/2020 21:18:18] - Network created successfully
+INFO:root:[26/05/2020 21:18:18] - Data Manager started successfully
+INFO:root:[26/05/2020 21:18:19] - Stock Manager started successfully
+INFO:root:[26/05/2020 21:18:20] - Stock: AAPL data has been repopulated with a limit of 250.
+INFO:root:[26/05/2020 21:22:53] - Network created successfully
+INFO:root:[26/05/2020 21:22:54] - Network created successfully
+INFO:root:[26/05/2020 21:22:54] - Data Manager started successfully
+INFO:root:[26/05/2020 21:22:55] - Stock Manager started successfully
+INFO:root:[26/05/2020 21:22:55] - Stock: AAPL data has been repopulated with a limit of 250.
+INFO:root:[26/05/2020 21:23:45] - Network created successfully
+INFO:root:[26/05/2020 21:23:46] - Network created successfully
+INFO:root:[26/05/2020 21:23:46] - Data Manager started successfully
+INFO:root:[26/05/2020 21:23:46] - Stock Manager started successfully
+INFO:root:[26/05/2020 21:23:47] - Stock: AAPL data has been repopulated with a limit of 250.
+INFO:root:[26/05/2020 21:25:06] - Network created successfully
+INFO:root:[26/05/2020 21:25:06] - Network created successfully
+INFO:root:[26/05/2020 21:25:06] - Data Manager started successfully
+INFO:root:[26/05/2020 21:25:07] - Stock Manager started successfully
+INFO:root:[26/05/2020 21:25:08] - Stock: AAPL data has been repopulated with a limit of 250.
+INFO:root:[27/05/2020 21:07:49] - Network created successfully
+INFO:root:[27/05/2020 21:07:50] - Network created successfully
+INFO:root:[27/05/2020 21:07:50] - Data Manager started successfully
+INFO:root:[27/05/2020 21:07:50] - Stock Manager started successfully
+INFO:root:[27/05/2020 21:07:51] - Stock: AAPL data has been repopulated with a limit of 250.
+INFO:root:[27/05/2020 21:13:54] - Network created successfully
+INFO:root:[27/05/2020 21:13:55] - Network created successfully
+INFO:root:[27/05/2020 21:13:55] - Data Manager started successfully
+INFO:root:[27/05/2020 21:13:55] - Stock Manager started successfully
+INFO:root:[27/05/2020 21:13:56] - Stock: AAPL data has been repopulated with a limit of 250.
+INFO:root:[27/05/2020 21:14:25] - Network created successfully
+INFO:root:[27/05/2020 21:14:25] - Network created successfully
+INFO:root:[27/05/2020 21:14:25] - Data Manager started successfully
+INFO:root:[27/05/2020 21:14:26] - Stock Manager started successfully
+INFO:root:[27/05/2020 21:14:27] - Stock: AAPL data has been repopulated with a limit of 250.
+INFO:root:[27/05/2020 21:14:55] - Network created successfully
+INFO:root:[27/05/2020 21:14:56] - Network created successfully
+INFO:root:[27/05/2020 21:14:56] - Data Manager started successfully
+INFO:root:[27/05/2020 21:14:57] - Stock Manager started successfully
+INFO:root:[27/05/2020 21:14:58] - Stock: AAPL data has been repopulated with a limit of 250.
+INFO:root:[27/05/2020 21:16:06] - Network created successfully
+INFO:root:[27/05/2020 21:16:07] - Network created successfully
+INFO:root:[27/05/2020 21:16:07] - Data Manager started successfully
+INFO:root:[27/05/2020 21:16:08] - Stock Manager started successfully
+INFO:root:[27/05/2020 21:16:08] - Stock: AAPL data has been repopulated with a limit of 250.
+INFO:root:[27/05/2020 21:17:59] - Network created successfully
+INFO:root:[27/05/2020 21:17:59] - Network created successfully
+INFO:root:[27/05/2020 21:17:59] - Data Manager started successfully
+INFO:root:[27/05/2020 21:18:00] - Stock Manager started successfully
+INFO:root:[27/05/2020 21:18:01] - Stock: AAPL data has been repopulated with a limit of 250.
+INFO:root:[27/05/2020 21:18:56] - Network created successfully
+INFO:root:[27/05/2020 21:18:56] - Network created successfully
+INFO:root:[27/05/2020 21:18:56] - Data Manager started successfully
+INFO:root:[27/05/2020 21:18:57] - Stock Manager started successfully
+INFO:root:[27/05/2020 21:18:58] - Stock: AAPL data has been repopulated with a limit of 250.
+INFO:root:[27/05/2020 21:19:48] - Network created successfully
+INFO:root:[27/05/2020 21:19:48] - Network created successfully
+INFO:root:[27/05/2020 21:19:48] - Data Manager started successfully
+INFO:root:[27/05/2020 21:19:49] - Stock Manager started successfully
+INFO:root:[27/05/2020 21:19:50] - Stock: AAPL data has been repopulated with a limit of 250.
+INFO:root:[27/05/2020 21:20:35] - Network created successfully
+INFO:root:[27/05/2020 21:20:35] - Network created successfully
+INFO:root:[27/05/2020 21:20:35] - Data Manager started successfully
+INFO:root:[27/05/2020 21:20:36] - Stock Manager started successfully
+INFO:root:[27/05/2020 21:20:37] - Stock: AAPL data has been repopulated with a limit of 250.
+INFO:root:[27/05/2020 21:20:45] - Network created successfully
+INFO:root:[27/05/2020 21:20:45] - Network created successfully
+INFO:root:[27/05/2020 21:20:45] - Data Manager started successfully
+INFO:root:[27/05/2020 21:20:46] - Stock Manager started successfully
+INFO:root:[27/05/2020 21:20:47] - Stock: AAPL data has been repopulated with a limit of 250.
+INFO:root:[27/05/2020 21:21:31] - Network created successfully
+INFO:root:[27/05/2020 21:21:31] - Network created successfully
+INFO:root:[27/05/2020 21:21:31] - Data Manager started successfully
+INFO:root:[27/05/2020 21:21:32] - Stock Manager started successfully
+INFO:root:[27/05/2020 21:21:33] - Stock: AAPL data has been repopulated with a limit of 250.
+INFO:root:[27/05/2020 21:21:55] - Network created successfully
+INFO:root:[27/05/2020 21:21:55] - Network created successfully
+INFO:root:[27/05/2020 21:21:55] - Data Manager started successfully
+INFO:root:[27/05/2020 21:21:56] - Stock Manager started successfully
+INFO:root:[27/05/2020 21:21:57] - Stock: AAPL data has been repopulated with a limit of 250.
+INFO:root:[27/05/2020 21:22:58] - Network created successfully
+INFO:root:[27/05/2020 21:22:59] - Network created successfully
+INFO:root:[27/05/2020 21:22:59] - Data Manager started successfully
+INFO:root:[27/05/2020 21:22:59] - Stock Manager started successfully
+INFO:root:[27/05/2020 21:23:00] - Stock: AAPL data has been repopulated with a limit of 250.
+INFO:root:[27/05/2020 21:24:14] - Network created successfully
+INFO:root:[27/05/2020 21:24:15] - Network created successfully
+INFO:root:[27/05/2020 21:24:15] - Data Manager started successfully
+INFO:root:[27/05/2020 21:24:15] - Stock Manager started successfully
+INFO:root:[27/05/2020 21:24:16] - Stock: AAPL data has been repopulated with a limit of 250.
+INFO:root:[27/05/2020 21:24:48] - Network created successfully
+INFO:root:[27/05/2020 21:24:49] - Network created successfully
+INFO:root:[27/05/2020 21:24:49] - Data Manager started successfully
+INFO:root:[27/05/2020 21:24:49] - Stock Manager started successfully
+INFO:root:[27/05/2020 21:24:50] - Stock: AAPL data has been repopulated with a limit of 250.
+INFO:root:[27/05/2020 21:25:10] - Network created successfully
+INFO:root:[27/05/2020 21:25:10] - Network created successfully
+INFO:root:[27/05/2020 21:25:10] - Data Manager started successfully
+INFO:root:[27/05/2020 21:25:11] - Stock Manager started successfully
+INFO:root:[27/05/2020 21:25:12] - Stock: AAPL data has been repopulated with a limit of 250.
+INFO:root:[27/05/2020 21:25:34] - Network created successfully
+INFO:root:[27/05/2020 21:25:35] - Network created successfully
+INFO:root:[27/05/2020 21:25:35] - Data Manager started successfully
+INFO:root:[27/05/2020 21:25:35] - Stock Manager started successfully
+INFO:root:[27/05/2020 21:25:36] - Stock: AAPL data has been repopulated with a limit of 250.
+INFO:root:[28/05/2020 07:10:10] - Network created successfully
+INFO:root:[28/05/2020 07:10:11] - Network created successfully
+INFO:root:[28/05/2020 07:10:11] - Data Manager started successfully
+INFO:root:[28/05/2020 07:10:11] - Stock Manager started successfully
+INFO:root:[28/05/2020 07:10:13] - Stock: AAPL data has been repopulated with a limit of 250.
+INFO:root:[28/05/2020 07:11:08] - Network created successfully
+INFO:root:[28/05/2020 07:11:09] - Network created successfully
+INFO:root:[28/05/2020 07:11:09] - Data Manager started successfully
+INFO:root:[28/05/2020 07:11:10] - Stock Manager started successfully
+INFO:root:[28/05/2020 07:11:11] - Stock: AAPL data has been repopulated with a limit of 250.
+INFO:root:[28/05/2020 07:18:20] - Network created successfully
+INFO:root:[28/05/2020 07:18:21] - Network created successfully
+INFO:root:[28/05/2020 07:18:21] - Data Manager started successfully
+INFO:root:[28/05/2020 07:18:22] - Stock Manager started successfully
+INFO:root:[28/05/2020 07:18:23] - Stock: AAPL data has been repopulated with a limit of 250.
+INFO:root:[28/05/2020 07:20:43] - Network created successfully
+INFO:root:[28/05/2020 07:20:44] - Network created successfully
+INFO:root:[28/05/2020 07:20:44] - Data Manager started successfully
+INFO:root:[28/05/2020 07:20:45] - Stock Manager started successfully
+INFO:root:[28/05/2020 07:20:46] - Stock: AAPL data has been repopulated with a limit of 250.
+INFO:root:[28/05/2020 07:26:13] - Network created successfully
+INFO:root:[28/05/2020 07:26:14] - Network created successfully
+INFO:root:[28/05/2020 07:26:14] - Data Manager started successfully
+INFO:root:[28/05/2020 07:26:14] - Stock Manager started successfully
+INFO:root:[28/05/2020 07:26:15] - Stock: AAPL data has been repopulated with a limit of 250.
+INFO:root:[28/05/2020 18:40:04] - Network created successfully
+INFO:root:[28/05/2020 18:40:04] - Network created successfully
+INFO:root:[28/05/2020 18:40:04] - Data Manager started successfully
+INFO:root:[28/05/2020 18:40:05] - Stock Manager started successfully
+INFO:root:[28/05/2020 18:40:06] - Stock: AAPL data has been repopulated with a limit of 250.
+INFO:root:[28/05/2020 19:21:35] - Network created successfully
+INFO:root:[28/05/2020 19:21:36] - Network created successfully
+INFO:root:[28/05/2020 19:21:36] - Data Manager started successfully
+INFO:root:[28/05/2020 19:21:36] - Stock Manager started successfully
+INFO:root:[28/05/2020 19:21:37] - Stock: AAPL data has been repopulated with a limit of 250.
+INFO:root:[28/05/2020 19:59:49] - Network created successfully
+INFO:root:[28/05/2020 19:59:49] - Network created successfully
+INFO:root:[28/05/2020 19:59:49] - Data Manager started successfully
+INFO:root:[28/05/2020 19:59:50] - Stock Manager started successfully
+INFO:root:[28/05/2020 19:59:51] - Stock: AAPL data has been repopulated with a limit of 250.
+INFO:root:[30/05/2020 09:42:14] - Network created successfully
+INFO:root:[30/05/2020 09:42:16] - Network created successfully
+INFO:root:[30/05/2020 09:42:16] - Data Manager started successfully
+INFO:root:[30/05/2020 09:42:16] - Stock Manager started successfully
+INFO:root:[30/05/2020 09:42:18] - Stock: AAPL data has been repopulated with a limit of 250.
+INFO:root:[30/05/2020 09:42:28] - Network created successfully
+INFO:root:[30/05/2020 09:42:29] - Network created successfully
+INFO:root:[30/05/2020 09:42:29] - Data Manager started successfully
+INFO:root:[30/05/2020 09:42:30] - Stock Manager started successfully
+INFO:root:[30/05/2020 09:42:31] - Stock: AAPL data has been repopulated with a limit of 250.
+INFO:root:[30/05/2020 09:42:32] - Stock: MSFT data has been repopulated with a limit of 250.
+INFO:root:[30/05/2020 09:44:25] - Network created successfully
+INFO:root:[30/05/2020 09:44:26] - Network created successfully
+INFO:root:[30/05/2020 09:44:26] - Data Manager started successfully
+INFO:root:[30/05/2020 09:44:26] - Stock Manager started successfully
+INFO:root:[30/05/2020 09:44:27] - Stock: AAPL data has been repopulated with a limit of 250.
+INFO:root:[30/05/2020 09:44:28] - Stock: MSFT data has been repopulated with a limit of 250.
+INFO:root:[30/05/2020 09:44:52] - Network created successfully
+INFO:root:[30/05/2020 09:44:53] - Network created successfully
+INFO:root:[30/05/2020 09:44:53] - Data Manager started successfully
+INFO:root:[30/05/2020 09:44:54] - Stock Manager started successfully
+INFO:root:[30/05/2020 09:44:55] - Stock: AAPL data has been repopulated with a limit of 250.
+INFO:root:[30/05/2020 09:45:15] - Network created successfully
+INFO:root:[30/05/2020 09:45:16] - Network created successfully
+INFO:root:[30/05/2020 09:45:16] - Data Manager started successfully
+INFO:root:[30/05/2020 09:45:17] - Stock Manager started successfully
+INFO:root:[30/05/2020 09:45:18] - Stock: AAPL data has been repopulated with a limit of 250.
+INFO:root:[30/05/2020 11:10:25] - Network created successfully
+INFO:root:[30/05/2020 11:10:26] - Network created successfully
+INFO:root:[30/05/2020 11:10:26] - Data Manager started successfully
+INFO:root:[30/05/2020 11:10:26] - Stock Manager started successfully
+INFO:root:[30/05/2020 11:10:27] - Stock: AAPL data has been repopulated with a limit of 250.
+INFO:root:[30/05/2020 11:10:34] - Network created successfully
+INFO:root:[30/05/2020 11:10:34] - Network created successfully
+INFO:root:[30/05/2020 11:10:34] - Data Manager started successfully
+INFO:root:[30/05/2020 11:10:35] - Stock Manager started successfully
+INFO:root:[30/05/2020 11:10:36] - Stock: AAPL data has been repopulated with a limit of 250.
+INFO:root:[30/05/2020 11:10:37] - Stock: MSFT data has been repopulated with a limit of 250.
+INFO:root:[30/05/2020 11:11:52] - Network created successfully
+INFO:root:[30/05/2020 11:11:53] - Network created successfully
+INFO:root:[30/05/2020 11:11:53] - Data Manager started successfully
+INFO:root:[30/05/2020 11:11:54] - Stock Manager started successfully
+INFO:root:[30/05/2020 11:11:55] - Stock: AAPL data has been repopulated with a limit of 250.
+INFO:root:[30/05/2020 11:16:06] - Network created successfully
+INFO:root:[30/05/2020 11:16:07] - Network created successfully
+INFO:root:[30/05/2020 11:16:07] - Data Manager started successfully
+INFO:root:[30/05/2020 11:16:07] - Stock Manager started successfully
+INFO:root:[30/05/2020 11:16:08] - Stock: AAPL data has been repopulated with a limit of 250.
+INFO:root:[30/05/2020 11:16:09] - Stock: MSFT data has been repopulated with a limit of 250.
+INFO:root:[30/05/2020 12:54:39] - Network created successfully
+INFO:root:[30/05/2020 12:54:39] - Network created successfully
+INFO:root:[30/05/2020 12:54:39] - Data Manager started successfully
+INFO:root:[30/05/2020 12:54:40] - Stock Manager started successfully
+INFO:root:[30/05/2020 12:54:41] - Stock: AAPL data has been repopulated with a limit of 250.
+INFO:root:[30/05/2020 13:02:56] - Network created successfully
+INFO:root:[30/05/2020 13:02:57] - Network created successfully
+INFO:root:[30/05/2020 13:02:57] - Data Manager started successfully
+INFO:root:[30/05/2020 13:02:57] - Stock Manager started successfully
+INFO:root:[30/05/2020 13:02:58] - Stock: AAPL data has been repopulated with a limit of 250.
+INFO:root:[30/05/2020 13:05:02] - Network created successfully
+INFO:root:[30/05/2020 13:05:03] - Network created successfully
+INFO:root:[30/05/2020 13:05:03] - Data Manager started successfully
+INFO:root:[30/05/2020 13:05:11] - Stock Manager started successfully
+INFO:root:[30/05/2020 13:05:12] - Stock: AAPL data has been repopulated with a limit of 250.
+INFO:root:[30/05/2020 13:05:31] - Stock: MSFT data has been repopulated with a limit of 250.
+INFO:root:[30/05/2020 13:06:33] - Network created successfully
+INFO:root:[30/05/2020 13:06:40] - Network created successfully
+INFO:root:[30/05/2020 13:06:40] - Data Manager started successfully
+INFO:root:[30/05/2020 13:06:41] - Stock Manager started successfully
+INFO:root:[30/05/2020 13:08:18] - Stock: AAPL data has been repopulated with a limit of 250.
+INFO:root:[30/05/2020 13:08:26] - Stock: MSFT data has been repopulated with a limit of 250.
+INFO:root:[30/05/2020 13:16:28] - Network created successfully
+INFO:root:[30/05/2020 13:16:28] - Network created successfully
+INFO:root:[30/05/2020 13:16:28] - Data Manager started successfully
+INFO:root:[30/05/2020 13:16:29] - Stock Manager started successfully
+INFO:root:[30/05/2020 13:16:30] - Stock: AAPL data has been repopulated with a limit of 250.
+INFO:root:[30/05/2020 13:18:06] - Network created successfully
+INFO:root:[30/05/2020 13:18:07] - Network created successfully
+INFO:root:[30/05/2020 13:18:07] - Data Manager started successfully
+INFO:root:[30/05/2020 13:18:07] - Stock Manager started successfully
+INFO:root:[30/05/2020 13:18:08] - Stock: AAPL data has been repopulated with a limit of 250.
+INFO:root:[30/05/2020 13:18:50] - Network created successfully
+INFO:root:[30/05/2020 13:18:51] - Network created successfully
+INFO:root:[30/05/2020 13:18:51] - Data Manager started successfully
+INFO:root:[30/05/2020 13:18:51] - Stock Manager started successfully
+INFO:root:[30/05/2020 13:18:52] - Stock: AAPL data has been repopulated with a limit of 250.
+INFO:root:[30/05/2020 13:18:52] - Stock: MSFT data has been repopulated with a limit of 250.
+INFO:root:[30/05/2020 13:21:37] - Network created successfully
+INFO:root:[30/05/2020 13:21:37] - Network created successfully
+INFO:root:[30/05/2020 13:21:37] - Data Manager started successfully
+INFO:root:[30/05/2020 13:21:38] - Stock Manager started successfully
+INFO:root:[30/05/2020 13:21:40] - Stock: AAPL data has been repopulated with a limit of 250.
+INFO:root:[30/05/2020 13:21:41] - Stock: MSFT data has been repopulated with a limit of 250.
+INFO:root:[30/05/2020 13:21:56] - Network created successfully
+INFO:root:[30/05/2020 13:21:57] - Network created successfully
+INFO:root:[30/05/2020 13:21:57] - Data Manager started successfully
+INFO:root:[30/05/2020 13:21:57] - Stock Manager started successfully
+INFO:root:[30/05/2020 13:21:58] - Stock: AAPL data has been repopulated with a limit of 250.
+INFO:root:[30/05/2020 13:21:59] - Stock: MSFT data has been repopulated with a limit of 250.
+INFO:root:[30/05/2020 13:28:41] - Network created successfully
+INFO:root:[30/05/2020 13:28:42] - Network created successfully
+INFO:root:[30/05/2020 13:28:42] - Data Manager started successfully
+INFO:root:[30/05/2020 13:28:42] - Stock Manager started successfully
+INFO:root:[30/05/2020 13:28:43] - Stock: AAPL data has been repopulated with a limit of 250.
+INFO:root:[30/05/2020 13:28:44] - Stock: MSFT data has been repopulated with a limit of 250.
+INFO:root:[30/05/2020 13:30:34] - Network created successfully
+INFO:root:[30/05/2020 13:30:35] - Network created successfully
+INFO:root:[30/05/2020 13:30:35] - Data Manager started successfully
+INFO:root:[30/05/2020 13:30:35] - Stock Manager started successfully
+INFO:root:[30/05/2020 13:30:36] - Stock: AAPL data has been repopulated with a limit of 250.
+INFO:root:[30/05/2020 14:06:25] - Network created successfully
+INFO:root:[30/05/2020 14:06:26] - Network created successfully
+INFO:root:[30/05/2020 14:06:26] - Data Manager started successfully
+INFO:root:[30/05/2020 14:06:26] - Stock Manager started successfully
+INFO:root:[30/05/2020 14:06:27] - Stock: AAPL data has been repopulated with a limit of 250.
+INFO:root:[30/05/2020 14:06:28] - Stock: MSFT data has been repopulated with a limit of 250.
+INFO:root:[30/05/2020 14:06:48] - Network created successfully
+INFO:root:[30/05/2020 14:06:49] - Network created successfully
+INFO:root:[30/05/2020 14:06:49] - Data Manager started successfully
+INFO:root:[30/05/2020 14:06:50] - Stock Manager started successfully
+INFO:root:[30/05/2020 14:06:50] - Stock: AAPL data has been repopulated with a limit of 250.
+INFO:root:[30/05/2020 14:08:06] - Stock: MSFT data has been repopulated with a limit of 250.
+INFO:root:[30/05/2020 14:09:25] - Network created successfully
+INFO:root:[30/05/2020 14:09:26] - Network created successfully
+INFO:root:[30/05/2020 14:09:26] - Data Manager started successfully
+INFO:root:[30/05/2020 14:09:26] - Stock Manager started successfully
+INFO:root:[30/05/2020 14:09:27] - Stock: AAPL data has been repopulated with a limit of 250.
+INFO:root:[30/05/2020 14:09:28] - Stock: MSFT data has been repopulated with a limit of 250.
+INFO:root:[30/05/2020 14:17:44] - Network created successfully
+INFO:root:[30/05/2020 14:17:45] - Network created successfully
+INFO:root:[30/05/2020 14:17:45] - Data Manager started successfully
+INFO:root:[30/05/2020 14:17:46] - Stock Manager started successfully
+INFO:root:[30/05/2020 14:17:47] - Stock: AAPL data has been repopulated with a limit of 250.
+INFO:root:[30/05/2020 14:17:47] - Stock: MSFT data has been repopulated with a limit of 250.
+INFO:root:[31/05/2020 18:38:04] - Network created successfully
+INFO:root:[31/05/2020 18:38:05] - Network created successfully
+INFO:root:[31/05/2020 18:38:05] - Data Manager started successfully
+INFO:root:[31/05/2020 18:38:06] - Stock Manager started successfully
+INFO:root:[31/05/2020 18:38:06] - Stock: AAPL data has been repopulated with a limit of 250.
+INFO:root:[31/05/2020 18:38:32] - Network created successfully
+INFO:root:[31/05/2020 18:38:33] - Network created successfully
+INFO:root:[31/05/2020 18:38:33] - Data Manager started successfully
+INFO:root:[31/05/2020 18:38:33] - Stock Manager started successfully
+INFO:root:[31/05/2020 18:38:34] - Stock: AAPL data has been repopulated with a limit of 250.
+INFO:root:[31/05/2020 18:38:34] - Stock: MSFT data has been repopulated with a limit of 250.
+INFO:root:[01/06/2020 20:52:42] - Network created successfully
+INFO:root:[01/06/2020 20:52:43] - Network created successfully
+INFO:root:[01/06/2020 20:52:43] - Data Manager started successfully
+INFO:root:[01/06/2020 20:52:43] - Stock Manager started successfully
+INFO:root:[01/06/2020 20:54:49] - Network created successfully
+INFO:root:[01/06/2020 20:54:49] - Network created successfully
+INFO:root:[01/06/2020 20:54:49] - Data Manager started successfully
+INFO:root:[01/06/2020 20:54:50] - Stock Manager started successfully
+INFO:root:[01/06/2020 20:54:51] - Stock: AAPL data has been repopulated with a limit of 250.
+INFO:root:[01/06/2020 20:54:57] - Stock: MSFT data has been repopulated with a limit of 250.
+INFO:root:[01/06/2020 20:59:59] - Network created successfully
+INFO:root:[01/06/2020 20:59:59] - Network created successfully
+INFO:root:[01/06/2020 20:59:59] - Data Manager started successfully
+INFO:root:[01/06/2020 21:00:00] - Stock Manager started successfully
+INFO:root:[01/06/2020 21:00:01] - Stock: AAPL data has been repopulated with a limit of 250.
+INFO:root:[01/06/2020 21:00:01] - Stock: MSFT data has been repopulated with a limit of 250.
+INFO:root:[02/06/2020 21:37:56] - Network created successfully
+INFO:root:[02/06/2020 21:37:56] - Network created successfully
+INFO:root:[02/06/2020 21:37:56] - Data Manager started successfully
+INFO:root:[02/06/2020 21:38:20] - Network created successfully
+INFO:root:[02/06/2020 21:38:20] - Network created successfully
+INFO:root:[02/06/2020 21:38:20] - Data Manager started successfully
+INFO:root:[02/06/2020 21:39:06] - Network created successfully
+INFO:root:[02/06/2020 21:39:06] - Network created successfully
+INFO:root:[02/06/2020 21:39:06] - Data Manager started successfully
+INFO:root:[02/06/2020 21:39:27] - Network created successfully
+INFO:root:[02/06/2020 21:39:27] - Network created successfully
+INFO:root:[02/06/2020 21:39:27] - Data Manager started successfully
+INFO:root:[02/06/2020 21:39:48] - Stock Manager started successfully
+INFO:root:[02/06/2020 21:39:50] - Stock: AAPL data has been repopulated with a limit of 250.
+INFO:root:[02/06/2020 21:39:51] - Stock: MSFT data has been repopulated with a limit of 250.
+INFO:root:[02/06/2020 21:42:29] - Network created successfully
+INFO:root:[02/06/2020 21:42:30] - Network created successfully
+INFO:root:[02/06/2020 21:42:30] - Data Manager started successfully
+INFO:root:[02/06/2020 21:42:31] - Stock Manager started successfully
+INFO:root:[02/06/2020 21:42:31] - Stock: AAPL data has been repopulated with a limit of 250.
+INFO:root:[02/06/2020 21:42:32] - Stock: MSFT data has been repopulated with a limit of 250.
+INFO:root:[02/06/2020 21:42:49] - Network created successfully
+INFO:root:[02/06/2020 21:42:50] - Network created successfully
+INFO:root:[02/06/2020 21:42:50] - Data Manager started successfully
+INFO:root:[02/06/2020 21:42:50] - Stock Manager started successfully
+INFO:root:[02/06/2020 21:42:51] - Stock: AAPL data has been repopulated with a limit of 250.
+INFO:root:[02/06/2020 21:42:52] - Stock: MSFT data has been repopulated with a limit of 250.
+INFO:root:[02/06/2020 21:45:26] - Network created successfully
+INFO:root:[02/06/2020 21:45:27] - Network created successfully
+INFO:root:[02/06/2020 21:45:27] - Network created successfully
+INFO:root:[02/06/2020 21:45:28] - Network created successfully
+INFO:root:[02/06/2020 21:45:29] - Network created successfully
+INFO:root:[02/06/2020 21:45:29] - Network created successfully
+INFO:root:[02/06/2020 21:45:30] - Network created successfully
+INFO:root:[02/06/2020 21:45:30] - Data Manager started successfully
+INFO:root:[02/06/2020 21:45:30] - Stock Manager started successfully
+INFO:root:[02/06/2020 21:45:31] - Stock: AAPL data has been repopulated with a limit of 250.
+INFO:root:[02/06/2020 21:45:32] - Stock: MSFT data has been repopulated with a limit of 250.
+INFO:root:[02/06/2020 21:45:32] - Stock: GNUS data has been repopulated with a limit of 250.
+INFO:root:[02/06/2020 21:45:33] - Stock: GE data has been repopulated with a limit of 250.
+INFO:root:[02/06/2020 21:45:33] - Stock: BAC data has been repopulated with a limit of 250.
+INFO:root:[02/06/2020 21:45:34] - Stock: NIO data has been repopulated with a limit of 250.
+INFO:root:[02/06/2020 21:45:35] - Stock: ZOM data has been repopulated with a limit of 250.
