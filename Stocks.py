@@ -33,10 +33,12 @@ class Stock:
         self.RSI_scale = 1
         self.scale_array = {"MA": self.MA_scale, "MACD": self.MACD_scale, "Momentum": self.Momentum_scale,
                             "EMA": self.EMA_scale, "RSI": self.RSI_scale}
-        self.day_data = StockData(self.temp_day_data_data, self.interval_range, self.scale_array)
-        self.hour_data = StockData(self.temp_hour_data_data, self.interval_range, self.scale_array)
-        self.minute_data = StockData(self.temp_min_data_data, self.interval_range, self.scale_array)
-        self.network = ML.NeuralNetwork()
+        self.day_data = StockData(self.temp_day_data_data, self.interval_range, self.scale_array, self.price,
+                                  self.name, "day")
+        self.hour_data = StockData(self.temp_hour_data_data, self.interval_range, self.scale_array, self.price,
+                                   self.name, "hour")
+        self.minute_data = StockData(self.temp_min_data_data, self.interval_range, self.scale_array, self.price,
+                                     self.name, "minute")
         self.lastUpdated = datetime.datetime.now()
 
     def update_data(self, lim: int = 250, avoid: int = 0):
@@ -84,13 +86,19 @@ class Stock:
 
 
 class StockData:
-    def __init__(self, data, interval_range: list, scale_array: dict):
+    def __init__(self, data, interval_range: list, scale_array: dict, price, name, increment):
         self.interval_range = interval_range
         self.data = data
         self.Fibbonaci = Formulas.FibbonaciRetracement(self.data)
-        self.interval_one_hundred = Interval(self.interval_range[0], self.data[-self.interval_range[0]:], scale_array)
-        self.interval_thirty = Interval(self.interval_range[1], self.data[-self.interval_range[1]:], scale_array)
-        self.interval_fifteen = Interval(self.interval_range[2], self.data[-self.interval_range[2]:], scale_array)
+        self.interval_one_hundred = Interval(self.interval_range[0], self.data[-self.interval_range[0]:],
+                                             scale_array, price, name, increment)
+        self.interval_thirty = Interval(self.interval_range[1], self.data[-self.interval_range[1]:],
+                                        scale_array, price, name, increment)
+        self.interval_fifteen = Interval(self.interval_range[2], self.data[-self.interval_range[2]:],
+                                         scale_array, price, name, increment)
+        self.hundred_model = ML.generate_model(self.interval_one_hundred)
+        self.thirty_model = ML.generate_model(self.interval_thirty)
+        self.fifteen_model = ML.generate_model(self.interval_fifteen)
 
     def update(self, data):
         self.data = data
@@ -107,9 +115,14 @@ class StockData:
 
 
 class Interval:
-    def __init__(self, t, data, scale_dict):
+    def __init__(self, t, data, scale_dict, price, name, increment):
+        self.name = name + "_" + str(t) + "_" + increment
+        self.increment = increment
+        self.price = price
         self.interval = t
         self.data = data
+        self.model_exists = False
+        self.model_data = None
         self.scale_dict = scale_dict
         self.MA = Formulas.MA(self.data)
         self.MACD = Formulas.MACD(self.data, int(self.interval / 2), self.interval)
