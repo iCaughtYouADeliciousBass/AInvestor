@@ -129,6 +129,7 @@ class Interval:
         self.Momentum = Formulas.momentum(self.data)
         self.EMA = Formulas.EMA(self.data, int(math.sqrt(t)))
         self.RSI = Formulas.RSI(self.data, int(math.sqrt(t)))
+        self.rescale()
 
     def recalculate(self, t):
         self.MA = Formulas.MA(self.data)
@@ -146,7 +147,7 @@ class Interval:
         self.RSI_scale(self.scale_dict.get("RSI"))
 
     def MA_scale(self, factor: float):
-        self.MA = self.MA - factor
+        self.MA = ((self.MA - factor) / self.price - 1)
 
     def MACD_scale(self, factor: float):
         for i in range(len(self.MACD)):

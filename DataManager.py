@@ -7,7 +7,7 @@ import AInvestor.Stocks as Stocks
 import AInvestor.Logger as Logger
 import matplotlib.pyplot as plt
 import numpy as np
-
+import multiprocessing
 
 # ------------------------Data Manager Class----------------------------------------------------------------------------
 
@@ -16,17 +16,22 @@ class DataManager:
     def __init__(self):
         self.outStream = None
         self.inStream = None
-        self.data = None
+        self.data = {}
         self.log = Logger.Logger()
         self.populate_data()
         self.log.append('info', 'Data Manager started successfully')
 
     def populate_data(self):
         SDRWebCrawler.buildStockList()
-        stockArray = ['AAPL', 'MSFT', 'GNUS', 'GE', 'BAC', 'NIO', 'ZOM']
-        self.data = dict([(stock_name, Stocks.Stock(stock_name)) for stock_name in stockArray])
+        stock_array = ['AAPL', 'MSFT', 'GNUS', 'GE', 'BAC', 'NIO', 'ZOM']
+        p = multiprocessing.Pool(len(stock_array))
+        p.map(self.generate_dict, stock_array)
+        #p = multiprocessing.Process(target=self.generate_dict, args=tuple(stock_array))
+        #p.start()
+        #p.join()
+        #self.data = dict([(stock_name, Stocks.Stock(stock_name)) for stock_name in stockArray])
 
-        print(('Stock List {} completed successfully, with a Request Count of {}').format(stockArray,
+        print(('Stock List {} completed successfully, with a Request Count of {}').format(stock_array,
                                                                                           Stocks.REQUEST_COUNT))
 
     def plot_data(self, x, plot_type):
@@ -61,6 +66,9 @@ class DataManager:
 
     def long_term_analysis(self):
         pass
+
+    def generate_dict(self, stock_name):
+        self.data[stock_name] = Stocks.Stock(stock_name)
 
     def process(self, params=None):
         print("Starting Short Term Process...")
