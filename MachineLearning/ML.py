@@ -201,9 +201,7 @@ def generate_model(stock):
                                 + 'VALUES ("{}", "{}", {}, {}, {}, {}, "{}", "{}", "{}");'.format(stock.name + "_" +
                                                                                                   str(n.x) + "_" +
                                                                                                   str(n.y),
-                                                                                                  stock.name[
-                                                                                                  :stock.name.find(
-                                                                                                      "_")],
+                                                                                                  stock.name[:stock.name.find("_")],
                                                                                                   stock.interval, n.x,
                                                                                                   n.y, n.bias,
                                                                                                   n.input_as_string,

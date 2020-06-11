@@ -26,11 +26,6 @@ class DataManager:
         stock_array = ['AAPL', 'MSFT', 'GNUS', 'GE', 'BAC', 'NIO', 'ZOM']
         p = multiprocessing.Pool(len(stock_array))
         p.map(self.generate_dict, stock_array)
-        #p = multiprocessing.Process(target=self.generate_dict, args=tuple(stock_array))
-        #p.start()
-        #p.join()
-        #self.data = dict([(stock_name, Stocks.Stock(stock_name)) for stock_name in stockArray])
-
         print(('Stock List {} completed successfully, with a Request Count of {}').format(stock_array,
                                                                                           Stocks.REQUEST_COUNT))
 
