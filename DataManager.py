@@ -61,6 +61,7 @@ class DataManager:
         print("Hundred Interval Day Data: {}".format(stock.day_data.hundred_model.feed_forward()))
         print("Thirty Interval Day Data: {}".format(stock.day_data.thirty_model.feed_forward()))
         print("Fifteen Interval Day Data: {}".format(stock.day_data.fifteen_model.feed_forward()))
+        print("DONE")
 
 
 

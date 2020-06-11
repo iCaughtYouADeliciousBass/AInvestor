@@ -189,9 +189,6 @@ def generate_model(stock):
                         temp_array.append(Neuron(x=a, y=b, weights=numpy.ones(shape[a][b]), inp=eval(inputs[b]),
                                                  input_count=shape[a][b], input_as_string=inputs[b]))
                 hidden_node_array.append(temp_array)
-        # ADD TO SQL
-        # Add Nodes
-        # Add Model
         model_insert_query = "INSERT INTO AInvestor.ML_Stock_Models (stock_and_itvl, stock, itvl) " \
                              + 'VALUES ("{}", {}, "{}");'.format(stock.name, stock.name[:stock.name.find("_")],
                                                                  stock.interval)
@@ -202,8 +199,8 @@ def generate_model(stock):
             node_insert_query = "INSERT INTO AInvestor.ML_Stock_Nodes " \
                                 + "(stock_key, stock, itvl, x, y, bias, input, stock_and_itvl, weight) " \
                                 + 'VALUES ("{}", "{}", {}, {}, {}, {}, "{}", "{}", "{}");'.format(stock.name + "_" +
-                                                                                                  str(n.x) + "_" + str(
-                n.y),
+                                                                                                  str(n.x) + "_" +
+                                                                                                  str(n.y),
                                                                                                   stock.name[
                                                                                                   :stock.name.find(
                                                                                                       "_")],
