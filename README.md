@@ -5,7 +5,7 @@ AI Hedge Fund
 Don't
 
 # Ideology
-Chicks dig dudes in lamborghinis.
+Chicks dig dudes in lamborghinis with large cocks.
 
 # Methodology
 There consists two core parts to the program: the Data Manager and the Stock Manager.  
