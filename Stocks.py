@@ -4,6 +4,7 @@ import math
 import AInvestor.DataProcessing.formulas as Formulas
 import AInvestor.MachineLearning.ML as ML
 from AInvestor.config import api
+import sklearn
 
 # ------------------------Globals---------------------------------------------------------------------------------------
 REQUEST_COUNT = 0

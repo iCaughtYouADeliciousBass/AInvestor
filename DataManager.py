@@ -7,7 +7,6 @@ import AInvestor.Stocks as Stocks
 import AInvestor.Logger as Logger
 import matplotlib.pyplot as plt
 import numpy as np
-import multiprocessing
 
 # ------------------------Data Manager Class----------------------------------------------------------------------------
 
@@ -16,18 +15,17 @@ class DataManager:
     def __init__(self):
         self.outStream = None
         self.inStream = None
-        self.data = {}
+        self.data = []
         self.log = Logger.Logger()
         self.populate_data()
         self.log.append('info', 'Data Manager started successfully')
 
     def populate_data(self):
         SDRWebCrawler.buildStockList()
-        stock_array = ['AAPL', 'MSFT', 'GNUS', 'GE', 'BAC', 'NIO', 'ZOM']
-        p = multiprocessing.Pool(len(stock_array))
-        p.map(self.generate_dict, stock_array)
-        print(('Stock List {} completed successfully, with a Request Count of {}').format(stock_array,
-                                                                                          Stocks.REQUEST_COUNT))
+        stock_array = ['AAPL', 'MSFT']
+        for i in stock_array:
+            self.generate_dict(i)
+        print(('Stock List completed successfully, with a Request Count of {}').format(Stocks.REQUEST_COUNT))
 
     def plot_data(self, x, plot_type):
         if plot_type == 'Fibbonaci':
@@ -56,7 +54,6 @@ class DataManager:
         print("Hundred Interval Day Data: {}".format(stock.day_data.hundred_model.feed_forward()))
         print("Thirty Interval Day Data: {}".format(stock.day_data.thirty_model.feed_forward()))
         print("Fifteen Interval Day Data: {}".format(stock.day_data.fifteen_model.feed_forward()))
-        print("DONE")
 
 
 
@@ -64,9 +61,9 @@ class DataManager:
         pass
 
     def generate_dict(self, stock_name):
-        self.data[stock_name] = Stocks.Stock(stock_name)
+        self.data.append(Stocks.Stock(stock_name))
 
     def process(self, params=None):
         print("Starting Short Term Process...")
-        for stock in self.data.values():
+        for stock in self.data:
             self.short_term_analysis(stock)

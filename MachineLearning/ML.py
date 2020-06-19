@@ -74,8 +74,10 @@ class Neuron:
         # Weight inputs, add bias, then use the activation function
         if len(inputs) != len(self.weights):
             inputs = inputs[:len(self.weights)]
-        if type(inputs) == 'list':
+        if type(inputs) == list:
             inputs = numpy.array(inputs)
+        if type(self.weights) == list:
+            self.weights = numpy.array(self.weights)
         total = numpy.dot(self.weights, inputs) + self.bias
         return sigmoid(total)
 
@@ -97,11 +99,6 @@ class NeuralModel:
         self.hidden_nodes = hidden_nodes
 
     def feed_forward(self):
-        out_array = []
-        out_neuron_out = 0.0
-        self.hidden_nodes = self.hidden_nodes[0]
-        for a in range(len(self.hidden_nodes) - 1, -1, -1):
-            self.output_node.input.append(self.hidden_nodes[a].feed_forward(self.hidden_nodes[a].input))
         return self.output_node.feed_forward(self.output_node.input)
 
 
@@ -190,7 +187,7 @@ def generate_model(stock):
                                                  input_count=shape[a][b], input_as_string=inputs[b]))
                 hidden_node_array.append(temp_array)
         model_insert_query = "INSERT INTO AInvestor.ML_Stock_Models (stock_and_itvl, stock, itvl) " \
-                             + 'VALUES ("{}", {}, "{}");'.format(stock.name, stock.name[:stock.name.find("_")],
+                             + 'VALUES ("{}", "{}", "{}");'.format(stock.name, stock.name[:stock.name.find("_")],
                                                                  stock.interval)
         node_insert_list = []
         hidden_node_array = hidden_node_array[0]
