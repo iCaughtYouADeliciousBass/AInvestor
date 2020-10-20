@@ -6,7 +6,7 @@ BASE_URL = "https://paper-api.alpaca.markets"
 
 ENDPOINT = "ainvestor.cu0fbx0vwc4k.ap-southeast-2.rds.amazonaws.com"
 USERNAME = "admin"
-PASSWORD = "Jahz3311"
+PASSWORD = "1333"
 DATABASE_NAME = "AInvestor"
 PORT = 3306
 

@@ -3,6 +3,7 @@ import datetime
 import math
 import AInvestor.DataProcessing.formulas as Formulas
 import AInvestor.MachineLearning.ML as ML
+import pandas
 from AInvestor.config import api
 import sklearn
 
