@@ -15,3 +15,4 @@ The Stock Manager will profile stocks based on the intended investment type (lon
 There will be available statistics to show gains/losses over time, and force commands to buy/sell different stocks, of which the combination of the two managers will look after.  
 
 After proof of concept is established, there may be an opportunity to make this public, where a small percent of gains will be taken (5% for example).  Each user will get different results, as there will be a UI to make their own models, train it on historical data and point at different markets (ForEx, Crypto, Stocks).  
+Good luck!
